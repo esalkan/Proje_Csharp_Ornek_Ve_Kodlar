@@ -94,6 +94,7 @@
             this.Controls.Add(this.listBox1);
             this.Controls.Add(this.button1);
             this.Name = "f22_v11_for_dongusu_icice";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "İç İçe for Döngüsü";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);

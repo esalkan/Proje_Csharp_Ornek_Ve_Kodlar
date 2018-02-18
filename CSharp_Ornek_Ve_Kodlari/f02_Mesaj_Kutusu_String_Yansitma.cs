@@ -27,18 +27,7 @@ namespace CSharp_Ornek_Ve_Kodlari
 
         private void button2_Click(object sender, EventArgs e)
         {
-            //Örnek 3
-            if (OrtakSinif.GizliFormuAc("Form3") == 0)
-            {
 
-
-                //OrtakSinif.Nedir(this);
-                f03_MSVB_Basvuru_Ekleme YeniForm = new f03_MSVB_Basvuru_Ekleme();
-                //OrtakSinif.Nedir(frm1);
-                YeniForm.Show();
-
-            }
-            this.Visible = false;
         }
 
         private void button3_Click(object sender, EventArgs e)
@@ -46,6 +35,16 @@ namespace CSharp_Ornek_Ve_Kodlari
             //Ana Menü
             OrtakSinif.GizliFormuAc("AnaPencere"); //Application.OpenForms[0].Visible = true;
             this.Visible = false;
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void f02_Mesaj_Kutusu_String_Yansitma_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

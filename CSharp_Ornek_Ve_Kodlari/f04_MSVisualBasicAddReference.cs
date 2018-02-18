@@ -48,13 +48,12 @@ namespace CSharp_Ornek_Ve_Kodlari
 
         private void button6_Click(object sender, EventArgs e)
         {
-            //Örnek 5
-            if (OrtakSinif.GizliFormuAc("DegiskenlerYanYana") == 0)
-            {
-                f05_DegiskenlerYanYana YeniForm = new f05_DegiskenlerYanYana();
-                YeniForm.Show();
-            }
-            this.Visible = false;
+
+        }
+
+        private void button7_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

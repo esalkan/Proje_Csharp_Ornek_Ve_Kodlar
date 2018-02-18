@@ -49,13 +49,12 @@ namespace CSharp_Ornek_Ve_Kodlari
 
         private void button6_Click(object sender, EventArgs e)
         {
-            //Örnek 4
-            if (OrtakSinif.GizliFormuAc("BasvuruEkleVB") == 0)
-            {
-                f04_MSVisualBasicAddReference YeniForm = new f04_MSVisualBasicAddReference();
-                YeniForm.Show();
-            }
-            this.Visible = false;
+
+        }
+
+        private void button7_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

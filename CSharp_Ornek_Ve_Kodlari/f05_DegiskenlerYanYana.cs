@@ -47,5 +47,10 @@ namespace CSharp_Ornek_Ve_Kodlari
             }
             this.Visible = false;
         }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

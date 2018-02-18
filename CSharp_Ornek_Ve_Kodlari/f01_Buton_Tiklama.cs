@@ -28,19 +28,6 @@ namespace CSharp_Ornek_Ve_Kodlari
 
         private void button2_Click(object sender, EventArgs e)
         {
-            //Örnek 2
-            if (OrtakSinif.GizliFormuAc("Form2") == 0)
-            {
-
-
-                //OrtakSinif.Nedir(this);
-                f02_Mesaj_Kutusu_String_Yansitma YeniForm = new f02_Mesaj_Kutusu_String_Yansitma();
-                //OrtakSinif.Nedir(frm1);
-                YeniForm.Show();
-
-            }
-            this.Visible = false;
-
 
         }
 

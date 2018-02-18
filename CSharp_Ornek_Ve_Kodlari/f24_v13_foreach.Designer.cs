@@ -94,6 +94,7 @@
             this.Controls.Add(this.listBox1);
             this.Controls.Add(this.button1);
             this.Name = "f24_v13_foreach";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "foreach döngüsü ve string dizi değişken";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);

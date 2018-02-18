@@ -32,3 +32,37 @@ C:\Users\umut\Documents\GitHub\CSharp_Ornek_Ve_Kodlari\CSharp_Ornek_Ve_Kodlari\C
 C:\Users\umut\Documents\GitHub\CSharp_Ornek_Ve_Kodlari\CSharp_Ornek_Ve_Kodlari\CSharp_Ornek_Ve_Kodlari\obj\Debug\CSharp_Ornek_Ve_Kodlari.f06_DegiskenlerinProsedurUstuTanimlanmasi.resources
 C:\Users\umut\Documents\GitHub\CSharp_Ornek_Ve_Kodlari\CSharp_Ornek_Ve_Kodlari\CSharp_Ornek_Ve_Kodlari\obj\Debug\CSharp_Ornek_Ve_Kodlari.f09_v7_veri_tipleri.resources
 C:\Users\umut\Documents\GitHub\CSharp_Ornek_Ve_Kodlari\CSharp_Ornek_Ve_Kodlari\CSharp_Ornek_Ve_Kodlari\obj\Debug\CSharp_Ornek_Ve_Kodlari.f07_SabitTanimlamaOrnek7.resources
+D:\04 - DEV\Projects\Proje_Csharp_Ornek_Ve_Kodlar\CSharp_Ornek_Ve_Kodlari\obj\Debug\CSharp_Ornek_Ve_Kodlari.csprojResolveAssemblyReference.cache
+D:\04 - DEV\Projects\Proje_Csharp_Ornek_Ve_Kodlar\CSharp_Ornek_Ve_Kodlari\obj\Debug\CSharp_Ornek_Ve_Kodlari.f04_MSVisualBasicAddReference.resources
+D:\04 - DEV\Projects\Proje_Csharp_Ornek_Ve_Kodlar\CSharp_Ornek_Ve_Kodlari\obj\Debug\CSharp_Ornek_Ve_Kodlari.f06_DegiskenlerinProsedurUstuTanimlanmasi.resources
+D:\04 - DEV\Projects\Proje_Csharp_Ornek_Ve_Kodlar\CSharp_Ornek_Ve_Kodlari\obj\Debug\CSharp_Ornek_Ve_Kodlari.f05_DegiskenlerYanYana.resources
+D:\04 - DEV\Projects\Proje_Csharp_Ornek_Ve_Kodlar\CSharp_Ornek_Ve_Kodlari\obj\Debug\CSharp_Ornek_Ve_Kodlari.f10_v8_Aritmetik01.resources
+D:\04 - DEV\Projects\Proje_Csharp_Ornek_Ve_Kodlar\CSharp_Ornek_Ve_Kodlari\obj\Debug\CSharp_Ornek_Ve_Kodlari.f11_v8_Aritmetik02.resources
+D:\04 - DEV\Projects\Proje_Csharp_Ornek_Ve_Kodlar\CSharp_Ornek_Ve_Kodlari\obj\Debug\CSharp_Ornek_Ve_Kodlari.f12_v8_Aritmetik03.resources
+D:\04 - DEV\Projects\Proje_Csharp_Ornek_Ve_Kodlar\CSharp_Ornek_Ve_Kodlari\obj\Debug\CSharp_Ornek_Ve_Kodlari.f13_v8_Aritmetik04.resources
+D:\04 - DEV\Projects\Proje_Csharp_Ornek_Ve_Kodlar\CSharp_Ornek_Ve_Kodlari\obj\Debug\CSharp_Ornek_Ve_Kodlari.f14_v8_Aritmetik05.resources
+D:\04 - DEV\Projects\Proje_Csharp_Ornek_Ve_Kodlar\CSharp_Ornek_Ve_Kodlari\obj\Debug\CSharp_Ornek_Ve_Kodlari.f15_v9_KararKontrolDeyimleri01.resources
+D:\04 - DEV\Projects\Proje_Csharp_Ornek_Ve_Kodlar\CSharp_Ornek_Ve_Kodlari\obj\Debug\CSharp_Ornek_Ve_Kodlari.f16_v9_KararKontrol_if_else.resources
+D:\04 - DEV\Projects\Proje_Csharp_Ornek_Ve_Kodlar\CSharp_Ornek_Ve_Kodlari\obj\Debug\CSharp_Ornek_Ve_Kodlari.f17_v9_if_elseif.resources
+D:\04 - DEV\Projects\Proje_Csharp_Ornek_Ve_Kodlar\CSharp_Ornek_Ve_Kodlari\obj\Debug\CSharp_Ornek_Ve_Kodlari.f18_v10_01_switch.resources
+D:\04 - DEV\Projects\Proje_Csharp_Ornek_Ve_Kodlar\CSharp_Ornek_Ve_Kodlari\obj\Debug\CSharp_Ornek_Ve_Kodlari.f19_v10_02_atama_kosulSart_operatorleri.resources
+D:\04 - DEV\Projects\Proje_Csharp_Ornek_Ve_Kodlar\CSharp_Ornek_Ve_Kodlari\obj\Debug\CSharp_Ornek_Ve_Kodlari.f20_v10_03_sart_ifadeler.resources
+D:\04 - DEV\Projects\Proje_Csharp_Ornek_Ve_Kodlar\CSharp_Ornek_Ve_Kodlari\obj\Debug\CSharp_Ornek_Ve_Kodlari.f21_v11_for_dongusu.resources
+D:\04 - DEV\Projects\Proje_Csharp_Ornek_Ve_Kodlar\CSharp_Ornek_Ve_Kodlari\obj\Debug\CSharp_Ornek_Ve_Kodlari.f22_v11_for_dongusu_icice.resources
+D:\04 - DEV\Projects\Proje_Csharp_Ornek_Ve_Kodlar\CSharp_Ornek_Ve_Kodlari\obj\Debug\CSharp_Ornek_Ve_Kodlari.f23_v12_while_dongusu.resources
+D:\04 - DEV\Projects\Proje_Csharp_Ornek_Ve_Kodlar\CSharp_Ornek_Ve_Kodlari\obj\Debug\CSharp_Ornek_Ve_Kodlari.f24_v13_foreach.resources
+D:\04 - DEV\Projects\Proje_Csharp_Ornek_Ve_Kodlar\CSharp_Ornek_Ve_Kodlari\obj\Debug\CSharp_Ornek_Ve_Kodlari.f25_v13_Math_kullanimi.resources
+D:\04 - DEV\Projects\Proje_Csharp_Ornek_Ve_Kodlar\CSharp_Ornek_Ve_Kodlari\obj\Debug\CSharp_Ornek_Ve_Kodlari.f09_v7_veri_tipleri.resources
+D:\04 - DEV\Projects\Proje_Csharp_Ornek_Ve_Kodlar\CSharp_Ornek_Ve_Kodlari\obj\Debug\CSharp_Ornek_Ve_Kodlari.f01_Buton_Tiklama.resources
+D:\04 - DEV\Projects\Proje_Csharp_Ornek_Ve_Kodlar\CSharp_Ornek_Ve_Kodlari\obj\Debug\CSharp_Ornek_Ve_Kodlari.f02_Mesaj_Kutusu_String_Yansitma.resources
+D:\04 - DEV\Projects\Proje_Csharp_Ornek_Ve_Kodlar\CSharp_Ornek_Ve_Kodlari\obj\Debug\CSharp_Ornek_Ve_Kodlari.f03_MSVB_Basvuru_Ekleme.resources
+D:\04 - DEV\Projects\Proje_Csharp_Ornek_Ve_Kodlar\CSharp_Ornek_Ve_Kodlari\obj\Debug\CSharp_Ornek_Ve_Kodlari.AnaPencere.resources
+D:\04 - DEV\Projects\Proje_Csharp_Ornek_Ve_Kodlar\CSharp_Ornek_Ve_Kodlari\obj\Debug\CSharp_Ornek_Ve_Kodlari.Properties.Resources.resources
+D:\04 - DEV\Projects\Proje_Csharp_Ornek_Ve_Kodlar\CSharp_Ornek_Ve_Kodlari\obj\Debug\CSharp_Ornek_Ve_Kodlari.f07_SabitTanimlamaOrnek7.resources
+D:\04 - DEV\Projects\Proje_Csharp_Ornek_Ve_Kodlar\CSharp_Ornek_Ve_Kodlari\obj\Debug\CSharp_Ornek_Ve_Kodlari.csproj.GenerateResource.Cache
+D:\04 - DEV\Projects\Proje_Csharp_Ornek_Ve_Kodlar\CSharp_Ornek_Ve_Kodlari\obj\Debug\CSharp_Ornek_Ve_Kodlari.csproj.CoreCompileInputs.cache
+D:\04 - DEV\Projects\Proje_Csharp_Ornek_Ve_Kodlar\CSharp_Ornek_Ve_Kodlari\obj\Debug\CSharp_Ornek_Ve_Kodlari.exe
+D:\04 - DEV\Projects\Proje_Csharp_Ornek_Ve_Kodlar\CSharp_Ornek_Ve_Kodlari\obj\Debug\CSharp_Ornek_Ve_Kodlari.pdb
+D:\04 - DEV\Projects\Proje_Csharp_Ornek_Ve_Kodlar\CSharp_Ornek_Ve_Kodlari\bin\Debug\CSharp_Ornek_Ve_Kodlari.exe.config
+D:\04 - DEV\Projects\Proje_Csharp_Ornek_Ve_Kodlar\CSharp_Ornek_Ve_Kodlari\bin\Debug\CSharp_Ornek_Ve_Kodlari.exe
+D:\04 - DEV\Projects\Proje_Csharp_Ornek_Ve_Kodlar\CSharp_Ornek_Ve_Kodlari\bin\Debug\CSharp_Ornek_Ve_Kodlari.pdb
