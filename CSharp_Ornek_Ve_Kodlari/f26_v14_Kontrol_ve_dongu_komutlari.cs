@@ -61,5 +61,10 @@ namespace CSharp_Ornek_Ve_Kodlari
             OrtakSinif.GizliFormuAc("AnaPencere"); //Application.OpenForms[0].Visible = true;//ilk açılan form
             this.Visible = false;
         }
+
+        private void pictureBox1_MouseHover(object sender, EventArgs e)
+        {
+            this.panel1.Focus();
+        }
     }
 }

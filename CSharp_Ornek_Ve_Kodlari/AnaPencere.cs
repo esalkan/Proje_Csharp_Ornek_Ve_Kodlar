@@ -452,5 +452,10 @@ namespace CSharp_Ornek_Ve_Kodlari
             this.Visible = false;
 
         }
+        private void button26_MouseHover(object sender, EventArgs e)
+        {
+            richTextBox1.Text = "Kontrol ve döngü komuları. (video 14)";
+
+        }
     }
 }

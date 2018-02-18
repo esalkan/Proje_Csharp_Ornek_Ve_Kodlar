@@ -370,6 +370,7 @@
             this.button26.Text = "Kontrol Ve Döngü Komutları";
             this.button26.UseVisualStyleBackColor = true;
             this.button26.Click += new System.EventHandler(this.button26_Click);
+            this.button26.MouseHover += new System.EventHandler(this.button26_MouseHover);
             // 
             // AnaPencere
             // 
