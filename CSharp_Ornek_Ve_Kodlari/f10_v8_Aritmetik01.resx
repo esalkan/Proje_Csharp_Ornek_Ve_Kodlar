@@ -125,4 +125,7 @@ if (sayi2==0) { MessageBox.Show("bölen 0 olamaz!");return; }
 kodu ile bölen 0 girildiğinde programın hata vermesinin önüne geçilmiştir.
 </value>
   </data>
+  <metadata name="statusStrip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
 </root>
