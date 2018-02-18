@@ -44,17 +44,17 @@ namespace CSharp_Ornek_Ve_Kodlari
         static public bool PanelAcKapa(object panelNesnesi)
         {
             Panel panel = panelNesnesi as Panel;
-            if(panel.Visible==false) { panel.Visible = true;panel.Focus(); return true; }
+            if (panel.Visible == false) { panel.Visible = true; panel.Focus(); return true; }
             else { panel.Visible = false; return false; }
         }
-        static public void EskiGizliFormuKapat(int AcikGizliFormlarAdedi,string KorunacakForm,string KorunacakAnaForm="AnaPencere")
+        static public void EskiGizliFormuKapat(int AcikGizliFormlarAdedi, string KorunacakForm, string KorunacakAnaForm = "AnaPencere")
         {
             int KapanacakFormlarAdedi = AcikGizliFormlarAdedi - KorunacakGizliFormlarAdedi;
             if (AcikGizliFormlarAdedi > KorunacakGizliFormlarAdedi)
             {
                 for (int i = 0; i < KapanacakFormlarAdedi; i++)
                 {
-                    if(Application.OpenForms[i].Name!=KorunacakAnaForm&&Application.OpenForms[i].Name != KorunacakForm)
+                    if (Application.OpenForms[i].Name != KorunacakAnaForm && Application.OpenForms[i].Name != KorunacakForm)
                     {
                         Application.OpenForms[i].Close();
                     }
@@ -66,31 +66,31 @@ namespace CSharp_Ornek_Ve_Kodlari
 
             int AcikFormlarSayisi = Application.OpenForms.Count;
             int FormAdiBulundu = 0;
-            for(int i=0;i<AcikFormlarSayisi;i++)
+            for (int i = 0; i < AcikFormlarSayisi; i++)
             {
-                if(Application.OpenForms[i].Name==FormAdi)
+                if (Application.OpenForms[i].Name == FormAdi)
                 {
                     Application.OpenForms[i].Visible = true;
                     FormAdiBulundu++;
                 }
             }
-            if(FormAdiBulundu==0)
+            if (FormAdiBulundu == 0)
             {
                 //MessageBox.Show("Gizli " + FormAdi + " bulunamadı. Önceden çalıştırdığınıza emin misiniz?");
-                
+
             }
-            OrtakSinif.EskiGizliFormuKapat(AcikFormlarSayisi,FormAdi);
+            OrtakSinif.EskiGizliFormuKapat(AcikFormlarSayisi, FormAdi);
             return FormAdiBulundu;
 
-            
+
         }
         static public void GizliFormlar()
         {
-            string FormAdlari="";
+            string FormAdlari = "";
             int AcikFormlarSayisi = Application.OpenForms.Count;
             for (int i = 0; i < AcikFormlarSayisi; i++)
             {
-                FormAdlari = FormAdlari + " "+i.ToString()+"." + Application.OpenForms[i].Name;
+                FormAdlari = FormAdlari + " " + i.ToString() + "." + Application.OpenForms[i].Name;
             }
             MessageBox.Show(FormAdlari);
 
@@ -98,7 +98,7 @@ namespace CSharp_Ornek_Ve_Kodlari
         // [Matematik fonksiyonları bunun altına kopyala
         static public double kotanjant(double radyan)
         {
-            if(radyan==0)
+            if (radyan == 0)
             {
                 MessageBox.Show("0 radyanın kotanjantı tanımsızdır");
                 return 0;
@@ -124,6 +124,12 @@ namespace CSharp_Ornek_Ve_Kodlari
             double Sonuc = 0;
             return double.TryParse(value, out Sonuc);
         }
+        
+        public static void ListBoxTemizle(ListBox listBox)
+        {
+            listBox.Items.Clear();
+        }
+
 
 
     }
