@@ -189,6 +189,7 @@
             this.Controls.Add(this.label4);
             this.Controls.Add(this.panel1);
             this.Name = "f12_v8_Aritmetik03";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Aritmetik 3  (Mod Alma)";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.panel1.ResumeLayout(false);

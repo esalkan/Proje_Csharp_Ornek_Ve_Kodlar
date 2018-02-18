@@ -103,6 +103,7 @@
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.button1);
             this.Name = "f06_DegiskenlerinProsedurUstuTanimlanmasi";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Değişkenlerin Üstte Tanımlanması - Örnek 6";
             this.ResumeLayout(false);
             this.PerformLayout();

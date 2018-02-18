@@ -140,6 +140,7 @@
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
             this.Name = "f13_v8_Aritmetik04";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "f13_v8_Aritmetik04";
             this.ResumeLayout(false);
             this.PerformLayout();

@@ -406,6 +406,7 @@
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
             this.Name = "AnaPencere";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "C# Ders Örnek Ve Kodlari";
             this.ResumeLayout(false);
             this.PerformLayout();
