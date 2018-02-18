@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+# Project Manager: Umut Sürmeli
+VisualStudioVersion = 15.0.27130.2020
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharp_Ornek_Ve_Kodlari", "CSharp_Ornek_Ve_Kodlari\CSharp_Ornek_Ve_Kodlari.csproj", "{A5B7CED7-5E90-48C9-A039-D3A179511358}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A5B7CED7-5E90-48C9-A039-D3A179511358}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A5B7CED7-5E90-48C9-A039-D3A179511358}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A5B7CED7-5E90-48C9-A039-D3A179511358}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A5B7CED7-5E90-48C9-A039-D3A179511358}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6F07BCF4-4A77-45EA-8DAA-5AAE99B98EE3}
+	EndGlobalSection
+EndGlobal

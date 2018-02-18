@@ -1,0 +1,432 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{A5B7CED7-5E90-48C9-A039-D3A179511358}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>CSharp_Ornek_Ve_Kodlari</RootNamespace>
+    <AssemblyName>CSharp_Ornek_Ve_Kodlari</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject />
+  </PropertyGroup>
+  <PropertyGroup>
+    <NoWin32Manifest>true</NoWin32Manifest>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="f04_MSVisualBasicAddReference.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="f04_MSVisualBasicAddReference.Designer.cs">
+      <DependentUpon>f04_MSVisualBasicAddReference.cs</DependentUpon>
+    </Compile>
+    <Compile Include="f06_DegiskenlerinProsedurUstuTanimlanmasi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="f06_DegiskenlerinProsedurUstuTanimlanmasi.Designer.cs">
+      <DependentUpon>f06_DegiskenlerinProsedurUstuTanimlanmasi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="f05_DegiskenlerYanYana.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="f05_DegiskenlerYanYana.Designer.cs">
+      <DependentUpon>f05_DegiskenlerYanYana.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DenemeFormu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DenemeFormu.Designer.cs">
+      <DependentUpon>DenemeFormu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="f10_v8_Aritmetik01.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="f10_v8_Aritmetik01.Designer.cs">
+      <DependentUpon>f10_v8_Aritmetik01.cs</DependentUpon>
+    </Compile>
+    <Compile Include="f11_v8_Aritmetik02.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="f11_v8_Aritmetik02.Designer.cs">
+      <DependentUpon>f11_v8_Aritmetik02.cs</DependentUpon>
+    </Compile>
+    <Compile Include="f12_v8_Aritmetik03.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="f12_v8_Aritmetik03.Designer.cs">
+      <DependentUpon>f12_v8_Aritmetik03.cs</DependentUpon>
+    </Compile>
+    <Compile Include="f13_v8_Aritmetik04.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="f13_v8_Aritmetik04.Designer.cs">
+      <DependentUpon>f13_v8_Aritmetik04.cs</DependentUpon>
+    </Compile>
+    <Compile Include="f14_v8_Aritmetik05.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="f14_v8_Aritmetik05.Designer.cs">
+      <DependentUpon>f14_v8_Aritmetik05.cs</DependentUpon>
+    </Compile>
+    <Compile Include="f15_v9_KararKontrolDeyimleri01.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="f15_v9_KararKontrolDeyimleri01.Designer.cs">
+      <DependentUpon>f15_v9_KararKontrolDeyimleri01.cs</DependentUpon>
+    </Compile>
+    <Compile Include="f16_v9_KararKontrol_if_else.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="f16_v9_KararKontrol_if_else.Designer.cs">
+      <DependentUpon>f16_v9_KararKontrol_if_else.cs</DependentUpon>
+    </Compile>
+    <Compile Include="f17_v9_if_elseif.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="f17_v9_if_elseif.Designer.cs">
+      <DependentUpon>f17_v9_if_elseif.cs</DependentUpon>
+    </Compile>
+    <Compile Include="f18_v10_01_switch.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="f18_v10_01_switch.Designer.cs">
+      <DependentUpon>f18_v10_01_switch.cs</DependentUpon>
+    </Compile>
+    <Compile Include="f19_v10_02_atama_kosulSart_operatorleri.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="f19_v10_02_atama_kosulSart_operatorleri.Designer.cs">
+      <DependentUpon>f19_v10_02_atama_kosulSart_operatorleri.cs</DependentUpon>
+    </Compile>
+    <Compile Include="f20_v10_03_sart_ifadeler.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="f20_v10_03_sart_ifadeler.Designer.cs">
+      <DependentUpon>f20_v10_03_sart_ifadeler.cs</DependentUpon>
+    </Compile>
+    <Compile Include="f21_v11_for_dongusu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="f21_v11_for_dongusu.Designer.cs">
+      <DependentUpon>f21_v11_for_dongusu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="f22_v11_for_dongusu_icice.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="f22_v11_for_dongusu_icice.Designer.cs">
+      <DependentUpon>f22_v11_for_dongusu_icice.cs</DependentUpon>
+    </Compile>
+    <Compile Include="f23_v12_while_dongusu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="f23_v12_while_dongusu.Designer.cs">
+      <DependentUpon>f23_v12_while_dongusu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="f24_v13_foreach.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="f24_v13_foreach.Designer.cs">
+      <DependentUpon>f24_v13_foreach.cs</DependentUpon>
+    </Compile>
+    <Compile Include="f25_v13_Math_kullanimi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="f25_v13_Math_kullanimi.Designer.cs">
+      <DependentUpon>f25_v13_Math_kullanimi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="f09_v7_veri_tipleri.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="f09_v7_veri_tipleri.Designer.cs">
+      <DependentUpon>f09_v7_veri_tipleri.cs</DependentUpon>
+    </Compile>
+    <Compile Include="f01_Buton_Tiklama.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="f01_Buton_Tiklama.Designer.cs">
+      <DependentUpon>f01_Buton_Tiklama.cs</DependentUpon>
+    </Compile>
+    <Compile Include="f02_Mesaj_Kutusu_String_Yansitma.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="f02_Mesaj_Kutusu_String_Yansitma.Designer.cs">
+      <DependentUpon>f02_Mesaj_Kutusu_String_Yansitma.cs</DependentUpon>
+    </Compile>
+    <Compile Include="f03_MSVB_Basvuru_Ekleme.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="f03_MSVB_Basvuru_Ekleme.Designer.cs">
+      <DependentUpon>f03_MSVB_Basvuru_Ekleme.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AnaPencere.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AnaPencere.Designer.cs">
+      <DependentUpon>AnaPencere.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="f07_SabitTanimlamaOrnek7.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="f07_SabitTanimlamaOrnek7.Designer.cs">
+      <DependentUpon>f07_SabitTanimlamaOrnek7.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="f04_MSVisualBasicAddReference.resx">
+      <DependentUpon>f04_MSVisualBasicAddReference.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="f06_DegiskenlerinProsedurUstuTanimlanmasi.resx">
+      <DependentUpon>f06_DegiskenlerinProsedurUstuTanimlanmasi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="f05_DegiskenlerYanYana.resx">
+      <DependentUpon>f05_DegiskenlerYanYana.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="f10_v8_Aritmetik01.resx">
+      <DependentUpon>f10_v8_Aritmetik01.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="f11_v8_Aritmetik02.resx">
+      <DependentUpon>f11_v8_Aritmetik02.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="f12_v8_Aritmetik03.resx">
+      <DependentUpon>f12_v8_Aritmetik03.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="f13_v8_Aritmetik04.resx">
+      <DependentUpon>f13_v8_Aritmetik04.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="f14_v8_Aritmetik05.resx">
+      <DependentUpon>f14_v8_Aritmetik05.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="f15_v9_KararKontrolDeyimleri01.resx">
+      <DependentUpon>f15_v9_KararKontrolDeyimleri01.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="f16_v9_KararKontrol_if_else.resx">
+      <DependentUpon>f16_v9_KararKontrol_if_else.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="f17_v9_if_elseif.resx">
+      <DependentUpon>f17_v9_if_elseif.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="f18_v10_01_switch.resx">
+      <DependentUpon>f18_v10_01_switch.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="f19_v10_02_atama_kosulSart_operatorleri.resx">
+      <DependentUpon>f19_v10_02_atama_kosulSart_operatorleri.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="f20_v10_03_sart_ifadeler.resx">
+      <DependentUpon>f20_v10_03_sart_ifadeler.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="f21_v11_for_dongusu.resx">
+      <DependentUpon>f21_v11_for_dongusu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="f22_v11_for_dongusu_icice.resx">
+      <DependentUpon>f22_v11_for_dongusu_icice.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="f23_v12_while_dongusu.resx">
+      <DependentUpon>f23_v12_while_dongusu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="f24_v13_foreach.resx">
+      <DependentUpon>f24_v13_foreach.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="f25_v13_Math_kullanimi.resx">
+      <DependentUpon>f25_v13_Math_kullanimi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="f09_v7_veri_tipleri.resx">
+      <DependentUpon>f09_v7_veri_tipleri.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="f01_Buton_Tiklama.resx">
+      <DependentUpon>f01_Buton_Tiklama.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="f02_Mesaj_Kutusu_String_Yansitma.resx">
+      <DependentUpon>f02_Mesaj_Kutusu_String_Yansitma.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="f03_MSVB_Basvuru_Ekleme.resx">
+      <DependentUpon>f03_MSVB_Basvuru_Ekleme.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AnaPencere.resx">
+      <DependentUpon>AnaPencere.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="f07_SabitTanimlamaOrnek7.resx">
+      <DependentUpon>f07_SabitTanimlamaOrnek7.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\add_reference.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\add_reference_VisualBasic.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MSVB_Interaction_InpotBox.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Form1Ipucu.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Form2Ipucu.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MSVB_Interaction_InpotBox2.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DegiskenlerYanYana.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DegiskeninUstteTanimlanmasi_GlobalDegisken.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SabitDegiskenlerOrnek7.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\msdn_cs_veri_tipleri.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\f10_v8_aritmetik01.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\f11_v8_Aritmetik02.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\f12_v8_Aritmetik03.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\f12_v8_Aritmetik03_KaynakKodu.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\f13_v8_Aritmetik04_0.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\f13_v8_Aritmetik04_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\f13_v8_Aritmetik04_2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\f13_v8_Aritmetik04_3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\f13_v8_Aritmetik04_4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\f13_v8_Aritmetik04_5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\f14_v8_Aritmetik05.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\f15_v9_01_if_else.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\f16_v9_if_else.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\f17_v9_if_elseif.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\f18_v10_switch.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\f19_v10_atama_operatorleri.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\f20_v10_sart_operatorleri.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\f21_v11_for_dongusu.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\f22_v11_for_dongusu_icice.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\f23_v12_while_dongusu.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\f24_v13_foreach_dongusu.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\f25_v13_Math_sinifi_01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\f25_v13_Math_sinifi_02.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 </ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
