@@ -37,8 +37,8 @@ namespace CSharp_Ornek_Ve_Kodlari
 
         private void button2_Click(object sender, EventArgs e)
         {
-            // Sonraki Örnek = f9_v7_veri_tipleri
-            if (OrtakSinif.GizliFormuAc("f9_v7_veri_tipleri") == 0)
+            // Sonraki Örnek = f09_v7_veri_tipleri
+            if (OrtakSinif.GizliFormuAc("f09_v7_veri_tipleri") == 0)
             {
                 f09_v7_veri_tipleri YeniForm = new f09_v7_veri_tipleri();
                 YeniForm.Show();

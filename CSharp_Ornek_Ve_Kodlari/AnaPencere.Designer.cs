@@ -31,6 +31,8 @@
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
+            this.label1 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
             this.button4 = new System.Windows.Forms.Button();
             this.richTextBox1 = new System.Windows.Forms.RichTextBox();
             this.button5 = new System.Windows.Forms.Button();
@@ -55,16 +57,10 @@
             this.button24 = new System.Windows.Forms.Button();
             this.button25 = new System.Windows.Forms.Button();
             this.button26 = new System.Windows.Forms.Button();
-            this.statusStrip1 = new System.Windows.Forms.StatusStrip();
-            this.toolStripStatusLabel3 = new System.Windows.Forms.ToolStripStatusLabel();
-            this.toolStripStatusLabel1 = new System.Windows.Forms.ToolStripStatusLabel();
-            this.toolStripStatusLabel2 = new System.Windows.Forms.ToolStripStatusLabel();
-            this.statusStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
             // button1
             // 
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.System;
             this.button1.Location = new System.Drawing.Point(12, 107);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(75, 23);
@@ -76,7 +72,6 @@
             // 
             // button2
             // 
-            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.System;
             this.button2.Location = new System.Drawing.Point(93, 107);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(75, 23);
@@ -88,7 +83,6 @@
             // 
             // button3
             // 
-            this.button3.FlatStyle = System.Windows.Forms.FlatStyle.System;
             this.button3.Location = new System.Drawing.Point(174, 107);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(75, 23);
@@ -98,9 +92,26 @@
             this.button3.Click += new System.EventHandler(this.button3_Click);
             this.button3.MouseHover += new System.EventHandler(this.button3_MouseHover);
             // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(710, 295);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(96, 39);
+            this.label1.TabIndex = 3;
+            this.label1.Text = "Hazırlayanlar\r\nUmut SÜRMELİ\r\nEyüp Sabri ALKAN";
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(710, 344);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(166, 13);
+            this.label2.TabIndex = 4;
+            this.label2.Text = "DEU Bilgisayar Programcılığı 2018";
+            // 
             // button4
             // 
-            this.button4.FlatStyle = System.Windows.Forms.FlatStyle.System;
             this.button4.Location = new System.Drawing.Point(255, 107);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(75, 23);
@@ -112,18 +123,16 @@
             // 
             // richTextBox1
             // 
-            this.richTextBox1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.richTextBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.richTextBox1.Location = new System.Drawing.Point(12, 5);
+            this.richTextBox1.Location = new System.Drawing.Point(24, 5);
             this.richTextBox1.Name = "richTextBox1";
             this.richTextBox1.ReadOnly = true;
-            this.richTextBox1.Size = new System.Drawing.Size(878, 96);
+            this.richTextBox1.Size = new System.Drawing.Size(839, 96);
             this.richTextBox1.TabIndex = 6;
             this.richTextBox1.Text = "";
             // 
             // button5
             // 
-            this.button5.FlatStyle = System.Windows.Forms.FlatStyle.System;
             this.button5.Location = new System.Drawing.Point(336, 107);
             this.button5.Name = "button5";
             this.button5.Size = new System.Drawing.Size(75, 23);
@@ -135,7 +144,6 @@
             // 
             // button6
             // 
-            this.button6.FlatStyle = System.Windows.Forms.FlatStyle.System;
             this.button6.Location = new System.Drawing.Point(417, 107);
             this.button6.Name = "button6";
             this.button6.Size = new System.Drawing.Size(75, 23);
@@ -147,7 +155,6 @@
             // 
             // button7
             // 
-            this.button7.FlatStyle = System.Windows.Forms.FlatStyle.System;
             this.button7.Location = new System.Drawing.Point(499, 106);
             this.button7.Name = "button7";
             this.button7.Size = new System.Drawing.Size(75, 23);
@@ -159,7 +166,6 @@
             // 
             // button8
             // 
-            this.button8.FlatStyle = System.Windows.Forms.FlatStyle.System;
             this.button8.Location = new System.Drawing.Point(580, 107);
             this.button8.Name = "button8";
             this.button8.Size = new System.Drawing.Size(75, 23);
@@ -181,7 +187,6 @@
             // 
             // button10
             // 
-            this.button10.FlatStyle = System.Windows.Forms.FlatStyle.System;
             this.button10.Location = new System.Drawing.Point(661, 107);
             this.button10.Name = "button10";
             this.button10.Size = new System.Drawing.Size(75, 23);
@@ -193,7 +198,6 @@
             // 
             // button11
             // 
-            this.button11.FlatStyle = System.Windows.Forms.FlatStyle.System;
             this.button11.Location = new System.Drawing.Point(742, 107);
             this.button11.Name = "button11";
             this.button11.Size = new System.Drawing.Size(75, 23);
@@ -205,7 +209,6 @@
             // 
             // button12
             // 
-            this.button12.FlatStyle = System.Windows.Forms.FlatStyle.System;
             this.button12.Location = new System.Drawing.Point(12, 136);
             this.button12.Name = "button12";
             this.button12.Size = new System.Drawing.Size(75, 23);
@@ -217,7 +220,6 @@
             // 
             // button13
             // 
-            this.button13.FlatStyle = System.Windows.Forms.FlatStyle.System;
             this.button13.Location = new System.Drawing.Point(93, 136);
             this.button13.Name = "button13";
             this.button13.Size = new System.Drawing.Size(75, 23);
@@ -229,7 +231,6 @@
             // 
             // button14
             // 
-            this.button14.FlatStyle = System.Windows.Forms.FlatStyle.System;
             this.button14.Location = new System.Drawing.Point(174, 136);
             this.button14.Name = "button14";
             this.button14.Size = new System.Drawing.Size(75, 23);
@@ -241,7 +242,6 @@
             // 
             // button15
             // 
-            this.button15.FlatStyle = System.Windows.Forms.FlatStyle.System;
             this.button15.Location = new System.Drawing.Point(255, 136);
             this.button15.Name = "button15";
             this.button15.Size = new System.Drawing.Size(75, 23);
@@ -253,7 +253,6 @@
             // 
             // button16
             // 
-            this.button16.FlatStyle = System.Windows.Forms.FlatStyle.System;
             this.button16.Location = new System.Drawing.Point(336, 136);
             this.button16.Name = "button16";
             this.button16.Size = new System.Drawing.Size(75, 23);
@@ -265,7 +264,6 @@
             // 
             // button17
             // 
-            this.button17.FlatStyle = System.Windows.Forms.FlatStyle.System;
             this.button17.Location = new System.Drawing.Point(417, 136);
             this.button17.Name = "button17";
             this.button17.Size = new System.Drawing.Size(75, 23);
@@ -277,7 +275,6 @@
             // 
             // button18
             // 
-            this.button18.FlatStyle = System.Windows.Forms.FlatStyle.System;
             this.button18.Location = new System.Drawing.Point(498, 136);
             this.button18.Name = "button18";
             this.button18.Size = new System.Drawing.Size(75, 23);
@@ -289,7 +286,6 @@
             // 
             // button19
             // 
-            this.button19.FlatStyle = System.Windows.Forms.FlatStyle.System;
             this.button19.Location = new System.Drawing.Point(579, 136);
             this.button19.Name = "button19";
             this.button19.Size = new System.Drawing.Size(117, 23);
@@ -301,7 +297,6 @@
             // 
             // button20
             // 
-            this.button20.FlatStyle = System.Windows.Forms.FlatStyle.System;
             this.button20.Location = new System.Drawing.Point(702, 136);
             this.button20.Name = "button20";
             this.button20.Size = new System.Drawing.Size(114, 23);
@@ -313,7 +308,6 @@
             // 
             // button21
             // 
-            this.button21.FlatStyle = System.Windows.Forms.FlatStyle.System;
             this.button21.Location = new System.Drawing.Point(12, 165);
             this.button21.Name = "button21";
             this.button21.Size = new System.Drawing.Size(112, 23);
@@ -325,7 +319,6 @@
             // 
             // button22
             // 
-            this.button22.FlatStyle = System.Windows.Forms.FlatStyle.System;
             this.button22.Location = new System.Drawing.Point(130, 165);
             this.button22.Name = "button22";
             this.button22.Size = new System.Drawing.Size(119, 23);
@@ -337,7 +330,6 @@
             // 
             // button23
             // 
-            this.button23.FlatStyle = System.Windows.Forms.FlatStyle.System;
             this.button23.Location = new System.Drawing.Point(255, 165);
             this.button23.Name = "button23";
             this.button23.Size = new System.Drawing.Size(111, 23);
@@ -349,7 +341,6 @@
             // 
             // button24
             // 
-            this.button24.FlatStyle = System.Windows.Forms.FlatStyle.System;
             this.button24.Location = new System.Drawing.Point(372, 165);
             this.button24.Name = "button24";
             this.button24.Size = new System.Drawing.Size(111, 23);
@@ -361,7 +352,6 @@
             // 
             // button25
             // 
-            this.button25.FlatStyle = System.Windows.Forms.FlatStyle.System;
             this.button25.Location = new System.Drawing.Point(489, 165);
             this.button25.Name = "button25";
             this.button25.Size = new System.Drawing.Size(84, 23);
@@ -373,7 +363,6 @@
             // 
             // button26
             // 
-            this.button26.FlatStyle = System.Windows.Forms.FlatStyle.System;
             this.button26.Location = new System.Drawing.Point(580, 165);
             this.button26.Name = "button26";
             this.button26.Size = new System.Drawing.Size(75, 23);
@@ -382,50 +371,11 @@
             this.button26.UseVisualStyleBackColor = true;
             this.button26.Click += new System.EventHandler(this.button26_Click);
             // 
-            // statusStrip1
-            // 
-            this.statusStrip1.AutoSize = false;
-            this.statusStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.toolStripStatusLabel3,
-            this.toolStripStatusLabel1,
-            this.toolStripStatusLabel2});
-            this.statusStrip1.Location = new System.Drawing.Point(0, 348);
-            this.statusStrip1.Name = "statusStrip1";
-            this.statusStrip1.Padding = new System.Windows.Forms.Padding(1, 0, 12, 0);
-            this.statusStrip1.Size = new System.Drawing.Size(902, 18);
-            this.statusStrip1.TabIndex = 29;
-            this.statusStrip1.Text = "statusStrip1";
-            // 
-            // toolStripStatusLabel3
-            // 
-            this.toolStripStatusLabel3.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.toolStripStatusLabel3.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.toolStripStatusLabel3.Name = "toolStripStatusLabel3";
-            this.toolStripStatusLabel3.Size = new System.Drawing.Size(229, 13);
-            this.toolStripStatusLabel3.Text = "DEU Bilgisayar Programcılığı 2017 - 2018          ";
-            // 
-            // toolStripStatusLabel1
-            // 
-            this.toolStripStatusLabel1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.toolStripStatusLabel1.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.toolStripStatusLabel1.Name = "toolStripStatusLabel1";
-            this.toolStripStatusLabel1.Size = new System.Drawing.Size(73, 13);
-            this.toolStripStatusLabel1.Text = "Hazırlayanlar :";
-            // 
-            // toolStripStatusLabel2
-            // 
-            this.toolStripStatusLabel2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.toolStripStatusLabel2.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.toolStripStatusLabel2.Name = "toolStripStatusLabel2";
-            this.toolStripStatusLabel2.Size = new System.Drawing.Size(189, 13);
-            this.toolStripStatusLabel2.Text = "Umut SÜRMELİ  / Eyüp Sabri ALKAN ";
-            // 
             // AnaPencere
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(902, 366);
-            this.Controls.Add(this.statusStrip1);
             this.Controls.Add(this.button26);
             this.Controls.Add(this.button25);
             this.Controls.Add(this.button24);
@@ -450,16 +400,15 @@
             this.Controls.Add(this.button5);
             this.Controls.Add(this.richTextBox1);
             this.Controls.Add(this.button4);
+            this.Controls.Add(this.label2);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
-            this.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.Name = "AnaPencere";
-            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "C# Ders Örnek Ve Kodlari";
-            this.statusStrip1.ResumeLayout(false);
-            this.statusStrip1.PerformLayout();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -468,6 +417,8 @@
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Button button4;
         private System.Windows.Forms.RichTextBox richTextBox1;
         private System.Windows.Forms.Button button5;
@@ -492,9 +443,5 @@
         private System.Windows.Forms.Button button24;
         private System.Windows.Forms.Button button25;
         private System.Windows.Forms.Button button26;
-        private System.Windows.Forms.StatusStrip statusStrip1;
-        private System.Windows.Forms.ToolStripStatusLabel toolStripStatusLabel1;
-        private System.Windows.Forms.ToolStripStatusLabel toolStripStatusLabel3;
-        private System.Windows.Forms.ToolStripStatusLabel toolStripStatusLabel2;
     }
 }
