@@ -76,11 +76,11 @@ namespace CSharp_Ornek_Ve_Kodlari
 
         private void button4_Click(object sender, EventArgs e)
         {
-            // Önceki Örnek f18_v10_01_switch
+            // Önceki Örnek f17_v9_if_elseif
 
-            if (OrtakSinif.GizliFormuAc("f18_v10_01_switch") == 0)
+            if (OrtakSinif.GizliFormuAc("f17_v9_if_elseif") == 0)
             {
-                f18_v10_01_switch YeniForm = new f18_v10_01_switch();
+                f17_v9_if_elseif YeniForm = new f17_v9_if_elseif();
                 YeniForm.Show();
             }
             this.Visible = false;
