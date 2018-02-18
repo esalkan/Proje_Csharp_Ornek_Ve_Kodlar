@@ -38,10 +38,21 @@ namespace CSharp_Ornek_Ve_Kodlari
 
         private void button3_Click(object sender, EventArgs e)
         {
-            // Sonraki Örnek
-            if (OrtakSinif.GizliFormuAc("SabitTanimlamaOrnek7") == 0)
+            // Sonraki Örnek = f07_SabitTanimlamaOrnek7
+            if (OrtakSinif.GizliFormuAc("f07_SabitTanimlamaOrnek7") == 0)
             {
                 f07_SabitTanimlamaOrnek7 YeniForm = new f07_SabitTanimlamaOrnek7();
+                YeniForm.Show();
+            }
+            this.Visible = false;
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            // Önceki Örnek = f05_DegiskenlerYanYana
+            if (OrtakSinif.GizliFormuAc("f05_DegiskenlerYanYana") == 0)
+            {
+                f05_DegiskenlerYanYana YeniForm = new f05_DegiskenlerYanYana();
                 YeniForm.Show();
             }
             this.Visible = false;

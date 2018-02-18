@@ -56,20 +56,18 @@
             this.button25 = new System.Windows.Forms.Button();
             this.button26 = new System.Windows.Forms.Button();
             this.statusStrip1 = new System.Windows.Forms.StatusStrip();
-            this.toolStripStatusLabel1 = new System.Windows.Forms.ToolStripStatusLabel();
             this.toolStripStatusLabel3 = new System.Windows.Forms.ToolStripStatusLabel();
+            this.toolStripStatusLabel1 = new System.Windows.Forms.ToolStripStatusLabel();
             this.toolStripStatusLabel2 = new System.Windows.Forms.ToolStripStatusLabel();
-            this.toolStripStatusLabel4 = new System.Windows.Forms.ToolStripStatusLabel();
             this.statusStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
             // button1
             // 
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Location = new System.Drawing.Point(14, 132);
-            this.button1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.System;
+            this.button1.Location = new System.Drawing.Point(12, 107);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(87, 28);
+            this.button1.Size = new System.Drawing.Size(75, 23);
             this.button1.TabIndex = 0;
             this.button1.Text = "Örnek 1";
             this.button1.UseVisualStyleBackColor = true;
@@ -78,11 +76,10 @@
             // 
             // button2
             // 
-            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button2.Location = new System.Drawing.Point(108, 132);
-            this.button2.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.System;
+            this.button2.Location = new System.Drawing.Point(93, 107);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(87, 28);
+            this.button2.Size = new System.Drawing.Size(75, 23);
             this.button2.TabIndex = 1;
             this.button2.Text = "Örnek 2";
             this.button2.UseVisualStyleBackColor = true;
@@ -91,11 +88,10 @@
             // 
             // button3
             // 
-            this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button3.Location = new System.Drawing.Point(203, 132);
-            this.button3.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.button3.FlatStyle = System.Windows.Forms.FlatStyle.System;
+            this.button3.Location = new System.Drawing.Point(174, 107);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(87, 28);
+            this.button3.Size = new System.Drawing.Size(75, 23);
             this.button3.TabIndex = 2;
             this.button3.Text = "Örnek 3";
             this.button3.UseVisualStyleBackColor = true;
@@ -104,11 +100,10 @@
             // 
             // button4
             // 
-            this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button4.Location = new System.Drawing.Point(297, 132);
-            this.button4.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.button4.FlatStyle = System.Windows.Forms.FlatStyle.System;
+            this.button4.Location = new System.Drawing.Point(255, 107);
             this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(87, 28);
+            this.button4.Size = new System.Drawing.Size(75, 23);
             this.button4.TabIndex = 5;
             this.button4.Text = "Örnek 4";
             this.button4.UseVisualStyleBackColor = true;
@@ -119,21 +114,19 @@
             // 
             this.richTextBox1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.richTextBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.richTextBox1.Location = new System.Drawing.Point(14, 6);
-            this.richTextBox1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.richTextBox1.Location = new System.Drawing.Point(12, 5);
             this.richTextBox1.Name = "richTextBox1";
             this.richTextBox1.ReadOnly = true;
-            this.richTextBox1.Size = new System.Drawing.Size(1024, 117);
+            this.richTextBox1.Size = new System.Drawing.Size(878, 96);
             this.richTextBox1.TabIndex = 6;
             this.richTextBox1.Text = "";
             // 
             // button5
             // 
-            this.button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button5.Location = new System.Drawing.Point(392, 132);
-            this.button5.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.button5.FlatStyle = System.Windows.Forms.FlatStyle.System;
+            this.button5.Location = new System.Drawing.Point(336, 107);
             this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(87, 28);
+            this.button5.Size = new System.Drawing.Size(75, 23);
             this.button5.TabIndex = 7;
             this.button5.Text = "Örnek 5";
             this.button5.UseVisualStyleBackColor = true;
@@ -142,11 +135,10 @@
             // 
             // button6
             // 
-            this.button6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button6.Location = new System.Drawing.Point(486, 132);
-            this.button6.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.button6.FlatStyle = System.Windows.Forms.FlatStyle.System;
+            this.button6.Location = new System.Drawing.Point(417, 107);
             this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(87, 28);
+            this.button6.Size = new System.Drawing.Size(75, 23);
             this.button6.TabIndex = 8;
             this.button6.Text = "Örnek 6";
             this.button6.UseVisualStyleBackColor = true;
@@ -155,11 +147,10 @@
             // 
             // button7
             // 
-            this.button7.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button7.Location = new System.Drawing.Point(582, 130);
-            this.button7.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.button7.FlatStyle = System.Windows.Forms.FlatStyle.System;
+            this.button7.Location = new System.Drawing.Point(499, 106);
             this.button7.Name = "button7";
-            this.button7.Size = new System.Drawing.Size(87, 28);
+            this.button7.Size = new System.Drawing.Size(75, 23);
             this.button7.TabIndex = 9;
             this.button7.Text = "Örnek 7";
             this.button7.UseVisualStyleBackColor = true;
@@ -168,11 +159,10 @@
             // 
             // button8
             // 
-            this.button8.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button8.Location = new System.Drawing.Point(677, 132);
-            this.button8.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.button8.FlatStyle = System.Windows.Forms.FlatStyle.System;
+            this.button8.Location = new System.Drawing.Point(580, 107);
             this.button8.Name = "button8";
-            this.button8.Size = new System.Drawing.Size(87, 28);
+            this.button8.Size = new System.Drawing.Size(75, 23);
             this.button8.TabIndex = 10;
             this.button8.Text = "Veri Tipleri";
             this.button8.UseVisualStyleBackColor = true;
@@ -181,10 +171,9 @@
             // 
             // button9
             // 
-            this.button9.Location = new System.Drawing.Point(940, 309);
-            this.button9.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.button9.Location = new System.Drawing.Point(806, 251);
             this.button9.Name = "button9";
-            this.button9.Size = new System.Drawing.Size(87, 28);
+            this.button9.Size = new System.Drawing.Size(75, 23);
             this.button9.TabIndex = 11;
             this.button9.Text = "button9";
             this.button9.UseVisualStyleBackColor = true;
@@ -192,11 +181,10 @@
             // 
             // button10
             // 
-            this.button10.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button10.Location = new System.Drawing.Point(771, 132);
-            this.button10.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.button10.FlatStyle = System.Windows.Forms.FlatStyle.System;
+            this.button10.Location = new System.Drawing.Point(661, 107);
             this.button10.Name = "button10";
-            this.button10.Size = new System.Drawing.Size(87, 28);
+            this.button10.Size = new System.Drawing.Size(75, 23);
             this.button10.TabIndex = 12;
             this.button10.Text = "Aritmetik 1";
             this.button10.UseVisualStyleBackColor = true;
@@ -205,11 +193,10 @@
             // 
             // button11
             // 
-            this.button11.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button11.Location = new System.Drawing.Point(866, 132);
-            this.button11.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.button11.FlatStyle = System.Windows.Forms.FlatStyle.System;
+            this.button11.Location = new System.Drawing.Point(742, 107);
             this.button11.Name = "button11";
-            this.button11.Size = new System.Drawing.Size(87, 28);
+            this.button11.Size = new System.Drawing.Size(75, 23);
             this.button11.TabIndex = 13;
             this.button11.Text = "Aritmetik 2";
             this.button11.UseVisualStyleBackColor = true;
@@ -218,11 +205,10 @@
             // 
             // button12
             // 
-            this.button12.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button12.Location = new System.Drawing.Point(14, 167);
-            this.button12.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.button12.FlatStyle = System.Windows.Forms.FlatStyle.System;
+            this.button12.Location = new System.Drawing.Point(12, 136);
             this.button12.Name = "button12";
-            this.button12.Size = new System.Drawing.Size(87, 28);
+            this.button12.Size = new System.Drawing.Size(75, 23);
             this.button12.TabIndex = 14;
             this.button12.Text = "Aritmetik 3";
             this.button12.UseVisualStyleBackColor = true;
@@ -231,11 +217,10 @@
             // 
             // button13
             // 
-            this.button13.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button13.Location = new System.Drawing.Point(108, 167);
-            this.button13.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.button13.FlatStyle = System.Windows.Forms.FlatStyle.System;
+            this.button13.Location = new System.Drawing.Point(93, 136);
             this.button13.Name = "button13";
-            this.button13.Size = new System.Drawing.Size(87, 28);
+            this.button13.Size = new System.Drawing.Size(75, 23);
             this.button13.TabIndex = 15;
             this.button13.Text = "Aritmetik 4";
             this.button13.UseVisualStyleBackColor = true;
@@ -244,11 +229,10 @@
             // 
             // button14
             // 
-            this.button14.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button14.Location = new System.Drawing.Point(203, 167);
-            this.button14.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.button14.FlatStyle = System.Windows.Forms.FlatStyle.System;
+            this.button14.Location = new System.Drawing.Point(174, 136);
             this.button14.Name = "button14";
-            this.button14.Size = new System.Drawing.Size(87, 28);
+            this.button14.Size = new System.Drawing.Size(75, 23);
             this.button14.TabIndex = 16;
             this.button14.Text = "Aritmetik 5";
             this.button14.UseVisualStyleBackColor = true;
@@ -257,11 +241,10 @@
             // 
             // button15
             // 
-            this.button15.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button15.Location = new System.Drawing.Point(297, 167);
-            this.button15.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.button15.FlatStyle = System.Windows.Forms.FlatStyle.System;
+            this.button15.Location = new System.Drawing.Point(255, 136);
             this.button15.Name = "button15";
-            this.button15.Size = new System.Drawing.Size(87, 28);
+            this.button15.Size = new System.Drawing.Size(75, 23);
             this.button15.TabIndex = 17;
             this.button15.Text = "if else";
             this.button15.UseVisualStyleBackColor = true;
@@ -270,11 +253,10 @@
             // 
             // button16
             // 
-            this.button16.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button16.Location = new System.Drawing.Point(392, 167);
-            this.button16.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.button16.FlatStyle = System.Windows.Forms.FlatStyle.System;
+            this.button16.Location = new System.Drawing.Point(336, 136);
             this.button16.Name = "button16";
-            this.button16.Size = new System.Drawing.Size(87, 28);
+            this.button16.Size = new System.Drawing.Size(75, 23);
             this.button16.TabIndex = 18;
             this.button16.Text = "if else";
             this.button16.UseVisualStyleBackColor = true;
@@ -283,11 +265,10 @@
             // 
             // button17
             // 
-            this.button17.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button17.Location = new System.Drawing.Point(486, 167);
-            this.button17.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.button17.FlatStyle = System.Windows.Forms.FlatStyle.System;
+            this.button17.Location = new System.Drawing.Point(417, 136);
             this.button17.Name = "button17";
-            this.button17.Size = new System.Drawing.Size(87, 28);
+            this.button17.Size = new System.Drawing.Size(75, 23);
             this.button17.TabIndex = 19;
             this.button17.Text = "if else if";
             this.button17.UseVisualStyleBackColor = true;
@@ -296,11 +277,10 @@
             // 
             // button18
             // 
-            this.button18.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button18.Location = new System.Drawing.Point(581, 167);
-            this.button18.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.button18.FlatStyle = System.Windows.Forms.FlatStyle.System;
+            this.button18.Location = new System.Drawing.Point(498, 136);
             this.button18.Name = "button18";
-            this.button18.Size = new System.Drawing.Size(87, 28);
+            this.button18.Size = new System.Drawing.Size(75, 23);
             this.button18.TabIndex = 20;
             this.button18.Text = "switch";
             this.button18.UseVisualStyleBackColor = true;
@@ -309,11 +289,10 @@
             // 
             // button19
             // 
-            this.button19.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button19.Location = new System.Drawing.Point(675, 167);
-            this.button19.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.button19.FlatStyle = System.Windows.Forms.FlatStyle.System;
+            this.button19.Location = new System.Drawing.Point(579, 136);
             this.button19.Name = "button19";
-            this.button19.Size = new System.Drawing.Size(136, 28);
+            this.button19.Size = new System.Drawing.Size(117, 23);
             this.button19.TabIndex = 21;
             this.button19.Text = "Atama Operatörleri";
             this.button19.UseVisualStyleBackColor = true;
@@ -322,11 +301,10 @@
             // 
             // button20
             // 
-            this.button20.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button20.Location = new System.Drawing.Point(819, 167);
-            this.button20.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.button20.FlatStyle = System.Windows.Forms.FlatStyle.System;
+            this.button20.Location = new System.Drawing.Point(702, 136);
             this.button20.Name = "button20";
-            this.button20.Size = new System.Drawing.Size(133, 28);
+            this.button20.Size = new System.Drawing.Size(114, 23);
             this.button20.TabIndex = 22;
             this.button20.Text = "Şart Operatörleri";
             this.button20.UseVisualStyleBackColor = true;
@@ -335,11 +313,10 @@
             // 
             // button21
             // 
-            this.button21.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button21.Location = new System.Drawing.Point(14, 203);
-            this.button21.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.button21.FlatStyle = System.Windows.Forms.FlatStyle.System;
+            this.button21.Location = new System.Drawing.Point(12, 165);
             this.button21.Name = "button21";
-            this.button21.Size = new System.Drawing.Size(131, 28);
+            this.button21.Size = new System.Drawing.Size(112, 23);
             this.button21.TabIndex = 23;
             this.button21.Text = "for döngüsü 1";
             this.button21.UseVisualStyleBackColor = true;
@@ -348,11 +325,10 @@
             // 
             // button22
             // 
-            this.button22.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button22.Location = new System.Drawing.Point(152, 203);
-            this.button22.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.button22.FlatStyle = System.Windows.Forms.FlatStyle.System;
+            this.button22.Location = new System.Drawing.Point(130, 165);
             this.button22.Name = "button22";
-            this.button22.Size = new System.Drawing.Size(139, 28);
+            this.button22.Size = new System.Drawing.Size(119, 23);
             this.button22.TabIndex = 24;
             this.button22.Text = "for döngüsü 2";
             this.button22.UseVisualStyleBackColor = true;
@@ -361,11 +337,10 @@
             // 
             // button23
             // 
-            this.button23.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button23.Location = new System.Drawing.Point(297, 203);
-            this.button23.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.button23.FlatStyle = System.Windows.Forms.FlatStyle.System;
+            this.button23.Location = new System.Drawing.Point(255, 165);
             this.button23.Name = "button23";
-            this.button23.Size = new System.Drawing.Size(129, 28);
+            this.button23.Size = new System.Drawing.Size(111, 23);
             this.button23.TabIndex = 25;
             this.button23.Text = "while döngüsü";
             this.button23.UseVisualStyleBackColor = true;
@@ -374,11 +349,10 @@
             // 
             // button24
             // 
-            this.button24.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button24.Location = new System.Drawing.Point(434, 203);
-            this.button24.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.button24.FlatStyle = System.Windows.Forms.FlatStyle.System;
+            this.button24.Location = new System.Drawing.Point(372, 165);
             this.button24.Name = "button24";
-            this.button24.Size = new System.Drawing.Size(129, 28);
+            this.button24.Size = new System.Drawing.Size(111, 23);
             this.button24.TabIndex = 26;
             this.button24.Text = "foreach döngüsü";
             this.button24.UseVisualStyleBackColor = true;
@@ -387,11 +361,10 @@
             // 
             // button25
             // 
-            this.button25.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button25.Location = new System.Drawing.Point(570, 203);
-            this.button25.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.button25.FlatStyle = System.Windows.Forms.FlatStyle.System;
+            this.button25.Location = new System.Drawing.Point(489, 165);
             this.button25.Name = "button25";
-            this.button25.Size = new System.Drawing.Size(98, 28);
+            this.button25.Size = new System.Drawing.Size(84, 23);
             this.button25.TabIndex = 27;
             this.button25.Text = "Math Sınıfı";
             this.button25.UseVisualStyleBackColor = true;
@@ -400,11 +373,10 @@
             // 
             // button26
             // 
-            this.button26.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button26.Location = new System.Drawing.Point(677, 203);
-            this.button26.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.button26.FlatStyle = System.Windows.Forms.FlatStyle.System;
+            this.button26.Location = new System.Drawing.Point(580, 165);
             this.button26.Name = "button26";
-            this.button26.Size = new System.Drawing.Size(87, 28);
+            this.button26.Size = new System.Drawing.Size(75, 23);
             this.button26.TabIndex = 28;
             this.button26.Text = "button26";
             this.button26.UseVisualStyleBackColor = true;
@@ -415,52 +387,44 @@
             this.statusStrip1.AutoSize = false;
             this.statusStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.toolStripStatusLabel3,
-            this.toolStripStatusLabel4,
             this.toolStripStatusLabel1,
             this.toolStripStatusLabel2});
-            this.statusStrip1.Location = new System.Drawing.Point(0, 428);
+            this.statusStrip1.Location = new System.Drawing.Point(0, 348);
             this.statusStrip1.Name = "statusStrip1";
-            this.statusStrip1.Size = new System.Drawing.Size(1052, 22);
+            this.statusStrip1.Padding = new System.Windows.Forms.Padding(1, 0, 12, 0);
+            this.statusStrip1.Size = new System.Drawing.Size(902, 18);
             this.statusStrip1.TabIndex = 29;
             this.statusStrip1.Text = "statusStrip1";
             // 
-            // toolStripStatusLabel1
-            // 
-            this.toolStripStatusLabel1.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.toolStripStatusLabel1.ForeColor = System.Drawing.SystemColors.MenuHighlight;
-            this.toolStripStatusLabel1.Name = "toolStripStatusLabel1";
-            this.toolStripStatusLabel1.Size = new System.Drawing.Size(84, 17);
-            this.toolStripStatusLabel1.Text = "Hazırlayanlar :";
-            // 
             // toolStripStatusLabel3
             // 
-            this.toolStripStatusLabel3.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.toolStripStatusLabel3.ForeColor = System.Drawing.Color.DodgerBlue;
+            this.toolStripStatusLabel3.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.toolStripStatusLabel3.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.toolStripStatusLabel3.Name = "toolStripStatusLabel3";
-            this.toolStripStatusLabel3.Size = new System.Drawing.Size(219, 17);
-            this.toolStripStatusLabel3.Text = "DEU Bilgisayar Programcılığı 2017 - 2018";
+            this.toolStripStatusLabel3.Size = new System.Drawing.Size(229, 13);
+            this.toolStripStatusLabel3.Text = "DEU Bilgisayar Programcılığı 2017 - 2018          ";
+            // 
+            // toolStripStatusLabel1
+            // 
+            this.toolStripStatusLabel1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.toolStripStatusLabel1.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.toolStripStatusLabel1.Name = "toolStripStatusLabel1";
+            this.toolStripStatusLabel1.Size = new System.Drawing.Size(73, 13);
+            this.toolStripStatusLabel1.Text = "Hazırlayanlar :";
             // 
             // toolStripStatusLabel2
             // 
-            this.toolStripStatusLabel2.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.toolStripStatusLabel2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.toolStripStatusLabel2.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.toolStripStatusLabel2.Name = "toolStripStatusLabel2";
-            this.toolStripStatusLabel2.Size = new System.Drawing.Size(192, 17);
+            this.toolStripStatusLabel2.Size = new System.Drawing.Size(189, 13);
             this.toolStripStatusLabel2.Text = "Umut SÜRMELİ  / Eyüp Sabri ALKAN ";
-            // 
-            // toolStripStatusLabel4
-            // 
-            this.toolStripStatusLabel4.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold);
-            this.toolStripStatusLabel4.Name = "toolStripStatusLabel4";
-            this.toolStripStatusLabel4.Size = new System.Drawing.Size(508, 17);
-            this.toolStripStatusLabel4.Text = "                                                                                 " +
-    "                                                                                " +
-    "      ";
             // 
             // AnaPencere
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1052, 450);
+            this.ClientSize = new System.Drawing.Size(902, 366);
             this.Controls.Add(this.statusStrip1);
             this.Controls.Add(this.button26);
             this.Controls.Add(this.button25);
@@ -489,8 +453,7 @@
             this.Controls.Add(this.button3);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
-            this.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.Name = "AnaPencere";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "C# Ders Örnek Ve Kodlari";
@@ -532,7 +495,6 @@
         private System.Windows.Forms.StatusStrip statusStrip1;
         private System.Windows.Forms.ToolStripStatusLabel toolStripStatusLabel1;
         private System.Windows.Forms.ToolStripStatusLabel toolStripStatusLabel3;
-        private System.Windows.Forms.ToolStripStatusLabel toolStripStatusLabel4;
         private System.Windows.Forms.ToolStripStatusLabel toolStripStatusLabel2;
     }
 }

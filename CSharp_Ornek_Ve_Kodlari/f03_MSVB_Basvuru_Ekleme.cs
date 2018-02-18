@@ -49,12 +49,26 @@ namespace CSharp_Ornek_Ve_Kodlari
 
         private void button6_Click(object sender, EventArgs e)
         {
-
+                // Sonraki Örnek = f04_MSVisualBasicAddReference
+                if (OrtakSinif.GizliFormuAc("f04_MSVisualBasicAddReference") == 0)
+                {
+                    f04_MSVisualBasicAddReference YeniForm = new f04_MSVisualBasicAddReference();
+                    YeniForm.Show();
+                }
+                this.Visible = false;
+            
         }
 
         private void button7_Click(object sender, EventArgs e)
         {
-
+                // Önceki Örnek = f02_Mesaj_Kutusu_String_Yansitma
+                if (OrtakSinif.GizliFormuAc("f02_Mesaj_Kutusu_String_Yansitma") == 0)
+                {
+                    f02_Mesaj_Kutusu_String_Yansitma YeniForm = new f02_Mesaj_Kutusu_String_Yansitma();
+                    YeniForm.Show();
+                }
+                this.Visible = false;
         }
+        
     }
 }

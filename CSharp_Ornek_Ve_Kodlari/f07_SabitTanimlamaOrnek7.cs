@@ -37,10 +37,21 @@ namespace CSharp_Ornek_Ve_Kodlari
 
         private void button2_Click(object sender, EventArgs e)
         {
-            // Sonraki Örnek
+            // Sonraki Örnek = f9_v7_veri_tipleri
             if (OrtakSinif.GizliFormuAc("f9_v7_veri_tipleri") == 0)
             {
                 f09_v7_veri_tipleri YeniForm = new f09_v7_veri_tipleri();
+                YeniForm.Show();
+            }
+            this.Visible = false;
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            // Önceki Örnek = f06_DegiskenlerinProsedurUstuTanimlanmasi
+            if (OrtakSinif.GizliFormuAc("f06_DegiskenlerinProsedurUstuTanimlanmasi") == 0)
+            {
+                f06_DegiskenlerinProsedurUstuTanimlanmasi YeniForm = new f06_DegiskenlerinProsedurUstuTanimlanmasi();
                 YeniForm.Show();
             }
             this.Visible = false;

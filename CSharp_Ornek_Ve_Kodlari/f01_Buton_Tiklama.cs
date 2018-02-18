@@ -28,7 +28,13 @@ namespace CSharp_Ornek_Ve_Kodlari
 
         private void button2_Click(object sender, EventArgs e)
         {
-
+            // Sonraki Örnek = f02_Mesaj_Kutusu_String_Yansitma
+            if (OrtakSinif.GizliFormuAc("f02_Mesaj_Kutusu_String_Yansitma") == 0)
+            {
+                f02_Mesaj_Kutusu_String_Yansitma YeniForm = new f02_Mesaj_Kutusu_String_Yansitma();
+                YeniForm.Show();
+            }
+            this.Visible = false;
         }
 
         private void button3_Click(object sender, EventArgs e)

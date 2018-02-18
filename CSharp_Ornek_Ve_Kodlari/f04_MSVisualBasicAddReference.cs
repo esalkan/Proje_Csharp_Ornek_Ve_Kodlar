@@ -48,12 +48,24 @@ namespace CSharp_Ornek_Ve_Kodlari
 
         private void button6_Click(object sender, EventArgs e)
         {
-
+            // Sonraki Örnek = f05_DegiskenlerYanYana
+            if (OrtakSinif.GizliFormuAc("f05_DegiskenlerYanYana") == 0)
+            {
+                f05_DegiskenlerYanYana YeniForm = new f05_DegiskenlerYanYana();
+                YeniForm.Show();
+            }
+            this.Visible = false;
         }
 
         private void button7_Click(object sender, EventArgs e)
         {
-
+            // Önceki Örnek = f03_MSVB_Basvuru_Ekleme
+            if (OrtakSinif.GizliFormuAc("f03_MSVB_Basvuru_Ekleme") == 0)
+            {
+                f03_MSVB_Basvuru_Ekleme YeniForm = new f03_MSVB_Basvuru_Ekleme();
+                YeniForm.Show();
+            }
+            this.Visible = false;
         }
     }
 }

@@ -195,4 +195,14 @@
         MQIAgMVBjAAAYHEQIwAAWBzECAAAFgcxAgCAxUGMAABgYbru/zVxmtB/QoD7AAAAAElFTkSuQmCC
 </value>
   </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>Bu Örnekte;
+
+Button tıklandığı zaman, 
+textBox1'in Text özelliğine atanan "Umut" değişkenini textBox1'e yazdıran.
+textBox2'nin Text özelliğine atanan  "textBox1'in Text" özelliği ve "Sürmeli" atamalarını textBox2'ye yazdıran
+Mouse'u textBox3.'e Fokuslayan Kod Örneğini Görmektesiniz.
+
+</value>
+  </data>
 </root>

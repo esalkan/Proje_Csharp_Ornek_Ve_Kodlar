@@ -39,8 +39,8 @@ namespace CSharp_Ornek_Ve_Kodlari
 
         private void button3_Click(object sender, EventArgs e)
         {
-            // Sonraki Örnek
-            if (OrtakSinif.GizliFormuAc("DegiskenlerinProsedurUstuTanimlanmasi") == 0)
+            // Sonraki Örnek = f06_DegiskenlerinProsedurUstuTanimlanmasi
+            if (OrtakSinif.GizliFormuAc("f06_DegiskenlerinProsedurUstuTanimlanmasi") == 0)
             {
                 f06_DegiskenlerinProsedurUstuTanimlanmasi YeniForm = new f06_DegiskenlerinProsedurUstuTanimlanmasi();
                 YeniForm.Show();
@@ -50,7 +50,13 @@ namespace CSharp_Ornek_Ve_Kodlari
 
         private void button4_Click(object sender, EventArgs e)
         {
-
+            // Önceki Örnek = f04_MSVisualBasicAddReference
+            if (OrtakSinif.GizliFormuAc("f04_MSVisualBasicAddReference") == 0)
+            {
+                f04_MSVisualBasicAddReference YeniForm = new f04_MSVisualBasicAddReference();
+                YeniForm.Show();
+            }
+            this.Visible = false;
         }
     }
 }
