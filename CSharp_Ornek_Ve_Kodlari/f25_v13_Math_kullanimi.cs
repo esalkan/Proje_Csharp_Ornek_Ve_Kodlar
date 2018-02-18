@@ -95,6 +95,14 @@ namespace CSharp_Ornek_Ve_Kodlari
 
         private void button4_Click(object sender, EventArgs e)
         {
+            // Sonraki Örnek
+
+            if (OrtakSinif.GizliFormuAc("f26_v14_Kontrol_ve_dongu_komutlari") == 0)
+            {
+                f26_v14_Kontrol_ve_dongu_komutlari YeniForm = new f26_v14_Kontrol_ve_dongu_komutlari();
+                YeniForm.Show();
+            }
+            this.Visible = false;
 
         }
 

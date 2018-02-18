@@ -66,3 +66,4 @@ C:\Users\umut\Documents\GitHub\Proje_CSOVK\CSharp_Ornek_Ve_Kodlari\obj\Debug\CSh
 C:\Users\umut\Documents\GitHub\Proje_CSOVK\CSharp_Ornek_Ve_Kodlari\obj\Debug\CSharp_Ornek_Ve_Kodlari.csproj.CoreCompileInputs.cache
 C:\Users\umut\Documents\GitHub\Proje_CSOVK\CSharp_Ornek_Ve_Kodlari\obj\Debug\CSharp_Ornek_Ve_Kodlari.exe
 C:\Users\umut\Documents\GitHub\Proje_CSOVK\CSharp_Ornek_Ve_Kodlari\obj\Debug\CSharp_Ornek_Ve_Kodlari.pdb
+C:\Users\umut\Documents\GitHub\Proje_CSOVK\CSharp_Ornek_Ve_Kodlari\obj\Debug\CSharp_Ornek_Ve_Kodlari.f26_v14_Kontrol_ve_dongu_komutlari.resources

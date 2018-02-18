@@ -118,6 +118,12 @@ namespace CSharp_Ornek_Ve_Kodlari
             Console.WriteLine("Hello World!");
             Console.ReadLine();
         }
+        public static bool IsNumeric(this string value)
+        {
+            //Kaynaktan anladığım kadarıyla TryParse kullanmak için MS Visual Basic başvurusu eklenmiş olmalı.
+            double Sonuc = 0;
+            return double.TryParse(value, out Sonuc);
+        }
 
 
     }
