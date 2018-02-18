@@ -116,6 +116,7 @@
             this.Controls.Add(this.button4);
             this.Controls.Add(this.button2);
             this.Name = "f16_v9_KararKontrol_if_else";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "if else \"{\" olmadan kullanımı";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);

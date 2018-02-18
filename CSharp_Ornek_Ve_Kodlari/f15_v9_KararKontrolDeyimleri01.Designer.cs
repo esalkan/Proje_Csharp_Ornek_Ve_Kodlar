@@ -175,6 +175,7 @@
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.label1);
             this.Name = "f15_v9_KararKontrolDeyimleri01";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Karar Ve Kontrol Deyimleri 1";
             this.ResumeLayout(false);
             this.PerformLayout();
