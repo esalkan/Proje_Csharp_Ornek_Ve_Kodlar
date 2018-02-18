@@ -198,7 +198,7 @@
             this.Controls.Add(this.button1);
             this.Name = "f13_v8_Aritmetik04";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "f13_v8_Aritmetik04";
+            this.Text = "Sayısal Değerleri Etkileme (Sayi++; Sayi--;)";
             this.statusStrip1.ResumeLayout(false);
             this.statusStrip1.PerformLayout();
             this.ResumeLayout(false);
