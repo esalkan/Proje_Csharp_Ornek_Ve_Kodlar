@@ -26,7 +26,7 @@ namespace CSharp_Ornek_Ve_Kodlari
             // Veri kısmına harf girilirse gene program hata veriyordu. 
             // Bundan sonraki örneklerde InputBox'tan gelen verilerin sayısal olup olmadığını kontrol etmek için
             // daha iyisini bulana kadar OrtakSinif.IsNumeric(string InputBoxtanGelen) fonksiyonunu kullanabiliriz.
-            int gelir = 0;
+            Double gelir = 0;
             string InputBoxtanGelen = Microsoft.VisualBasic.Interaction.InputBox("Maaşınızı Girin", "Maaş Bilgisi", "", 120, 120);
             if (OrtakSinif.IsNumeric(InputBoxtanGelen) == false)
             {
@@ -35,7 +35,7 @@ namespace CSharp_Ornek_Ve_Kodlari
             }
             else
             {
-               gelir = Convert.ToInt32(InputBoxtanGelen);
+               gelir = Convert.ToDouble(InputBoxtanGelen);
             }
             if(gelir>=5000) { MessageBox.Show("gelir düzeyi yüksek");}
             else if(gelir>=2500) { MessageBox.Show("Orta gelirli"); }
