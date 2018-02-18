@@ -51,7 +51,7 @@ namespace CSharp_Ornek_Ve_Kodlari
 
         private void button3_Click(object sender, EventArgs e)
         {
-            // Sonraki Örnek
+            // Sonraki Örnek f19_v10_02_atama_kosulSart_operatorleri
 
             if (OrtakSinif.GizliFormuAc("f19_v10_02_atama_kosulSart_operatorleri") == 0)
             {
@@ -72,6 +72,18 @@ namespace CSharp_Ornek_Ve_Kodlari
         private void pictureBox1_MouseHover(object sender, EventArgs e)
         {
             panel1.Focus();
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            // Önceki Örnek f18_v10_01_switch
+
+            if (OrtakSinif.GizliFormuAc("f18_v10_01_switch") == 0)
+            {
+                f18_v10_01_switch YeniForm = new f18_v10_01_switch();
+                YeniForm.Show();
+            }
+            this.Visible = false;
         }
     }
 }

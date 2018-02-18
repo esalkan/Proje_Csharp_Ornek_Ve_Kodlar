@@ -35,10 +35,21 @@ namespace CSharp_Ornek_Ve_Kodlari
 
         private void button2_Click(object sender, EventArgs e)
         {
-            // Sonraki Örnek
+            // Sonraki Örnek f15_v9_KararKontrolDeyimleri01
             if (OrtakSinif.GizliFormuAc("f15_v9_KararKontrolDeyimleri01") == 0)
             {
                 f15_v9_KararKontrolDeyimleri01 YeniForm = new f15_v9_KararKontrolDeyimleri01();
+                YeniForm.Show();
+            }
+            this.Visible = false;
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            // Önceki Örnek f13_v8_Aritmetik04
+            if (OrtakSinif.GizliFormuAc("f13_v8_Aritmetik04") == 0)
+            {
+                f13_v8_Aritmetik04 YeniForm = new f13_v8_Aritmetik04();
                 YeniForm.Show();
             }
             this.Visible = false;

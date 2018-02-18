@@ -54,10 +54,21 @@ namespace CSharp_Ornek_Ve_Kodlari
 
         private void button4_Click(object sender, EventArgs e)
         {
-            // Sonraki Örnek
+            // Sonraki Örnek f16_v9_KararKontrol_if_else
             if (OrtakSinif.GizliFormuAc("f16_v9_KararKontrol_if_else") == 0)
             {
                 f16_v9_KararKontrol_if_else YeniForm = new f16_v9_KararKontrol_if_else();
+                YeniForm.Show();
+            }
+            this.Visible = false;
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            // Önceki Örnek f14_v8_Aritmetik05
+            if (OrtakSinif.GizliFormuAc("f14_v8_Aritmetik05") == 0)
+            {
+                f14_v8_Aritmetik05 YeniForm = new f14_v8_Aritmetik05();
                 YeniForm.Show();
             }
             this.Visible = false;

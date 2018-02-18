@@ -45,10 +45,21 @@ namespace CSharp_Ornek_Ve_Kodlari
 
         private void button2_Click(object sender, EventArgs e)
         {
-            // Sonraki Örnek
+            // Sonraki Örnek = f10_v8_Aritmetik01
             if (OrtakSinif.GizliFormuAc("f10_v8_Aritmetik01") == 0)
             {
                 f10_v8_Aritmetik01 YeniForm = new f10_v8_Aritmetik01();
+                YeniForm.Show();
+            }
+            this.Visible = false;
+        }
+
+        private void button3_Click_1(object sender, EventArgs e)
+        {
+            // Önceki Örnek = f07_SabitTanimlamaOrnek7.cs
+            if (OrtakSinif.GizliFormuAc("f07_SabitTanimlamaOrnek7") == 0)
+            {
+                f07_SabitTanimlamaOrnek7 YeniForm = new f07_SabitTanimlamaOrnek7();
                 YeniForm.Show();
             }
             this.Visible = false;

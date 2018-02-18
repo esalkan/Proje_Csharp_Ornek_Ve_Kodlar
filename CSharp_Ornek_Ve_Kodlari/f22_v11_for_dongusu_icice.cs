@@ -40,7 +40,7 @@ namespace CSharp_Ornek_Ve_Kodlari
 
         private void button3_Click(object sender, EventArgs e)
         {
-            // Sonraki Örnek
+            // Sonraki Örnek f23_v12_while_dongusu
 
             if (OrtakSinif.GizliFormuAc("f23_v12_while_dongusu") == 0)
             {
@@ -49,6 +49,18 @@ namespace CSharp_Ornek_Ve_Kodlari
             }
             this.Visible = false;
 
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            // Önceki Örnek f21_v11_for_dongusu
+
+            if (OrtakSinif.GizliFormuAc("f21_v11_for_dongusu") == 0)
+            {
+                f21_v11_for_dongusu YeniForm = new f21_v11_for_dongusu();
+                YeniForm.Show();
+            }
+            this.Visible = false;
         }
     }
 }

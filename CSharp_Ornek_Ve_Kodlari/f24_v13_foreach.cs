@@ -38,7 +38,7 @@ namespace CSharp_Ornek_Ve_Kodlari
 
         private void button2_Click(object sender, EventArgs e)
         {
-            // Sonraki Örnek
+            // Sonraki Örnek f25_v13_Math_kullanimi
 
             if (OrtakSinif.GizliFormuAc("f25_v13_Math_kullanimi") == 0)
             {
@@ -47,6 +47,18 @@ namespace CSharp_Ornek_Ve_Kodlari
             }
             this.Visible = false;
 
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            // Önceki Örnek f23_v12_while_dongusu
+
+            if (OrtakSinif.GizliFormuAc("f23_v12_while_dongusu") == 0)
+            {
+                f23_v12_while_dongusu YeniForm = new f23_v12_while_dongusu();
+                YeniForm.Show();
+            }
+            this.Visible = false;
         }
     }
 }

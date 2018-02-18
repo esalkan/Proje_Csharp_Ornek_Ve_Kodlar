@@ -72,6 +72,7 @@
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.tabPage2 = new System.Windows.Forms.TabPage();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
+            this.button6 = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             this.tabControl1.SuspendLayout();
@@ -401,26 +402,27 @@
             // 
             // button3
             // 
-            this.button3.Location = new System.Drawing.Point(12, 343);
+            this.button3.Location = new System.Drawing.Point(352, 353);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(75, 23);
             this.button3.TabIndex = 22;
-            this.button3.Text = "Örnekler";
+            this.button3.Text = "Ana Menü";
             this.button3.UseVisualStyleBackColor = true;
             this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // button4
             // 
-            this.button4.Location = new System.Drawing.Point(93, 343);
+            this.button4.Location = new System.Drawing.Point(433, 353);
             this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(75, 23);
+            this.button4.Size = new System.Drawing.Size(87, 23);
             this.button4.TabIndex = 23;
-            this.button4.Text = "button4";
+            this.button4.Text = "Sonraki Örnek";
             this.button4.UseVisualStyleBackColor = true;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
             // button5
             // 
-            this.button5.Location = new System.Drawing.Point(672, 343);
+            this.button5.Location = new System.Drawing.Point(672, 353);
             this.button5.Name = "button5";
             this.button5.Size = new System.Drawing.Size(114, 23);
             this.button5.TabIndex = 24;
@@ -430,6 +432,7 @@
             // 
             // panel2
             // 
+            this.panel2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panel2.Controls.Add(this.tabControl1);
             this.panel2.Location = new System.Drawing.Point(10, 6);
             this.panel2.Name = "panel2";
@@ -491,11 +494,22 @@
             this.pictureBox3.TabStop = false;
             this.pictureBox3.MouseHover += new System.EventHandler(this.pictureBox3_MouseHover);
             // 
+            // button6
+            // 
+            this.button6.Location = new System.Drawing.Point(259, 353);
+            this.button6.Name = "button6";
+            this.button6.Size = new System.Drawing.Size(87, 23);
+            this.button6.TabIndex = 26;
+            this.button6.Text = "Önceki Örnek";
+            this.button6.UseVisualStyleBackColor = true;
+            this.button6.Click += new System.EventHandler(this.button6_Click);
+            // 
             // f25_v13_Math_kullanimi
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(798, 370);
+            this.ClientSize = new System.Drawing.Size(798, 401);
+            this.Controls.Add(this.button6);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.button5);
             this.Controls.Add(this.button4);
@@ -582,5 +596,6 @@
         private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.TabPage tabPage2;
         private System.Windows.Forms.PictureBox pictureBox3;
+        private System.Windows.Forms.Button button6;
     }
 }

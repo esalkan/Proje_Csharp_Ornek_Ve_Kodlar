@@ -49,5 +49,17 @@ namespace CSharp_Ornek_Ve_Kodlari
             this.Visible = false;
 
         }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            // Önceki Örnek f20_v10_03_sart_ifadeler
+
+            if (OrtakSinif.GizliFormuAc("f20_v10_03_sart_ifadeler") == 0)
+            {
+                f20_v10_03_sart_ifadeler YeniForm = new f20_v10_03_sart_ifadeler();
+                YeniForm.Show();
+            }
+            this.Visible = false;
+        }
     }
 }

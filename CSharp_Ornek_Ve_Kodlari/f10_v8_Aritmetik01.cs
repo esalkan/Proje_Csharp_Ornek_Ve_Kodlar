@@ -136,10 +136,21 @@ namespace CSharp_Ornek_Ve_Kodlari
 
         private void button6_Click(object sender, EventArgs e)
         {
-            // Sonraki Örnek
+            // Sonraki Örnek f11_v8_Aritmetik02
             if (OrtakSinif.GizliFormuAc("f11_v8_Aritmetik02") == 0)
             {
                 f11_v8_Aritmetik02 YeniForm = new f11_v8_Aritmetik02();
+                YeniForm.Show();
+            }
+            this.Visible = false;
+        }
+
+        private void button7_Click(object sender, EventArgs e)
+        {
+            // Sonraki Örnek f09_v7_veri_tipleri
+            if (OrtakSinif.GizliFormuAc("f09_v7_veri_tipleri") == 0)
+            {
+                f09_v7_veri_tipleri YeniForm = new f09_v7_veri_tipleri();
                 YeniForm.Show();
             }
             this.Visible = false;

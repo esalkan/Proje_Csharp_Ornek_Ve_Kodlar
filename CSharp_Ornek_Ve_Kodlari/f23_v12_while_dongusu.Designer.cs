@@ -36,6 +36,7 @@
             this.button3 = new System.Windows.Forms.Button();
             this.button4 = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.button5 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -43,9 +44,9 @@
             // 
             this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.button1.ForeColor = System.Drawing.Color.Red;
-            this.button1.Location = new System.Drawing.Point(21, 12);
+            this.button1.Location = new System.Drawing.Point(12, 12);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(244, 60);
+            this.button1.Size = new System.Drawing.Size(253, 60);
             this.button1.TabIndex = 0;
             this.button1.Text = "while";
             this.button1.UseVisualStyleBackColor = true;
@@ -53,19 +54,19 @@
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(21, 78);
+            this.textBox1.Location = new System.Drawing.Point(12, 78);
             this.textBox1.Multiline = true;
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(244, 65);
+            this.textBox1.Size = new System.Drawing.Size(253, 65);
             this.textBox1.TabIndex = 1;
             // 
             // button2
             // 
             this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.button2.ForeColor = System.Drawing.Color.Red;
-            this.button2.Location = new System.Drawing.Point(21, 149);
+            this.button2.Location = new System.Drawing.Point(12, 149);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(244, 60);
+            this.button2.Size = new System.Drawing.Size(253, 60);
             this.button2.TabIndex = 2;
             this.button2.Text = "do while";
             this.button2.UseVisualStyleBackColor = true;
@@ -93,26 +94,27 @@
             // 
             // button3
             // 
-            this.button3.Location = new System.Drawing.Point(12, 339);
+            this.button3.Location = new System.Drawing.Point(107, 320);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(75, 23);
+            this.button3.Size = new System.Drawing.Size(69, 23);
             this.button3.TabIndex = 5;
-            this.button3.Text = "Örnekler";
+            this.button3.Text = "Ana Menü";
             this.button3.UseVisualStyleBackColor = true;
             this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // button4
             // 
-            this.button4.Location = new System.Drawing.Point(93, 339);
+            this.button4.Location = new System.Drawing.Point(182, 320);
             this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(118, 23);
+            this.button4.Size = new System.Drawing.Size(83, 23);
             this.button4.TabIndex = 6;
-            this.button4.Text = "foreach döngüsü";
+            this.button4.Text = "Sonraki Örnek";
             this.button4.UseVisualStyleBackColor = true;
             this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
             // pictureBox1
             // 
+            this.pictureBox1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.pictureBox1.Image = global::CSharp_Ornek_Ve_Kodlari.Properties.Resources.f23_v12_while_dongusu;
             this.pictureBox1.Location = new System.Drawing.Point(285, 12);
             this.pictureBox1.Name = "pictureBox1";
@@ -120,11 +122,22 @@
             this.pictureBox1.TabIndex = 7;
             this.pictureBox1.TabStop = false;
             // 
+            // button5
+            // 
+            this.button5.Location = new System.Drawing.Point(12, 320);
+            this.button5.Name = "button5";
+            this.button5.Size = new System.Drawing.Size(89, 23);
+            this.button5.TabIndex = 8;
+            this.button5.Text = "Önceki Örnek";
+            this.button5.UseVisualStyleBackColor = true;
+            this.button5.Click += new System.EventHandler(this.button5_Click);
+            // 
             // f23_v12_while_dongusu
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(738, 374);
+            this.ClientSize = new System.Drawing.Size(738, 358);
+            this.Controls.Add(this.button5);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.button4);
             this.Controls.Add(this.button3);
@@ -152,5 +165,6 @@
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.Button button4;
         private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.Button button5;
     }
 }

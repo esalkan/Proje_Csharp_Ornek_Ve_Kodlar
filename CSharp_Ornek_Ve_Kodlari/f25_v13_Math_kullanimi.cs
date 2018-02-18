@@ -92,5 +92,22 @@ namespace CSharp_Ornek_Ve_Kodlari
         {
             tabPage2.Focus();
         }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            // Önceki Örnek f24_v13_foreach
+
+            if (OrtakSinif.GizliFormuAc("f24_v13_foreach") == 0)
+            {
+                f24_v13_foreach YeniForm = new f24_v13_foreach();
+                YeniForm.Show();
+            }
+            this.Visible = false;
+        }
     }
 }

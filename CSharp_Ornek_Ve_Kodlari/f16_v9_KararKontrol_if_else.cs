@@ -26,7 +26,7 @@ namespace CSharp_Ornek_Ve_Kodlari
 
         private void button4_Click(object sender, EventArgs e)
         {
-            // Sonraki Örnek
+            // Sonraki Örnek f17_v9_if_elseif
             if (OrtakSinif.GizliFormuAc("f17_v9_if_elseif") == 0)
             {
                 f17_v9_if_elseif YeniForm = new f17_v9_if_elseif();
@@ -53,5 +53,15 @@ namespace CSharp_Ornek_Ve_Kodlari
                
         }
 
+        private void button3_Click(object sender, EventArgs e)
+        {
+            // Önceki Örnek f15_v9_KararKontrolDeyimleri01
+            if (OrtakSinif.GizliFormuAc("f15_v9_KararKontrolDeyimleri01") == 0)
+            {
+                f15_v9_KararKontrolDeyimleri01 YeniForm = new f15_v9_KararKontrolDeyimleri01();
+                YeniForm.Show();
+            }
+            this.Visible = false;
+        }
     }
 }

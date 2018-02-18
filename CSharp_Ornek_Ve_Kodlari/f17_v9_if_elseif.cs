@@ -58,8 +58,8 @@ namespace CSharp_Ornek_Ve_Kodlari
 
         private void button3_Click(object sender, EventArgs e)
         {
-            // Sonraki Örnek
-            
+            // Sonraki Örnek f18_v10_01_switch
+
             if (OrtakSinif.GizliFormuAc("f18_v10_01_switch") == 0)
             {
                 f18_v10_01_switch YeniForm = new f18_v10_01_switch();
@@ -67,6 +67,18 @@ namespace CSharp_Ornek_Ve_Kodlari
             }
             this.Visible = false;
             
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            // Önceki Örnek f16_v9_KararKontrol_if_else
+
+            if (OrtakSinif.GizliFormuAc("f16_v9_KararKontrol_if_else") == 0)
+            {
+                f16_v9_KararKontrol_if_else YeniForm = new f16_v9_KararKontrol_if_else();
+                YeniForm.Show();
+            }
+            this.Visible = false;
         }
     }
 }

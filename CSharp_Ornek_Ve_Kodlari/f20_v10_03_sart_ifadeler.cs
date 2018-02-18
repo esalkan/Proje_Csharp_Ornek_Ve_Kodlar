@@ -79,7 +79,7 @@ namespace CSharp_Ornek_Ve_Kodlari
 
         private void button3_Click(object sender, EventArgs e)
         {
-            // Sonraki Örnek
+            // Sonraki Örnek f21_v11_for_dongusu
 
             if (OrtakSinif.GizliFormuAc("f21_v11_for_dongusu") == 0)
             {
@@ -88,6 +88,18 @@ namespace CSharp_Ornek_Ve_Kodlari
             }
             this.Visible = false;
 
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            // Önceki Örnek f19_v10_02_atama_kosulSart_operatorleri
+
+            if (OrtakSinif.GizliFormuAc("f19_v10_02_atama_kosulSart_operatorleri") == 0)
+            {
+                f19_v10_02_atama_kosulSart_operatorleri YeniForm = new f19_v10_02_atama_kosulSart_operatorleri();
+                YeniForm.Show();
+            }
+            this.Visible = false;
         }
     }
 }

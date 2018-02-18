@@ -37,13 +37,14 @@
             this.button6 = new System.Windows.Forms.Button();
             this.button7 = new System.Windows.Forms.Button();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.button8 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // button1
             // 
             this.button1.Location = new System.Drawing.Point(16, 12);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(244, 30);
+            this.button1.Size = new System.Drawing.Size(263, 30);
             this.button1.TabIndex = 0;
             this.button1.Text = "İŞLEM";
             this.button1.UseVisualStyleBackColor = true;
@@ -53,7 +54,7 @@
             // 
             this.button2.Location = new System.Drawing.Point(16, 48);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(114, 37);
+            this.button2.Size = new System.Drawing.Size(121, 37);
             this.button2.TabIndex = 1;
             this.button2.Text = "SAYIYI BİR SAYI ARTTIRMA";
             this.button2.UseVisualStyleBackColor = true;
@@ -61,9 +62,9 @@
             // 
             // button3
             // 
-            this.button3.Location = new System.Drawing.Point(136, 48);
+            this.button3.Location = new System.Drawing.Point(143, 48);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(124, 37);
+            this.button3.Size = new System.Drawing.Size(136, 37);
             this.button3.TabIndex = 2;
             this.button3.Text = "YENİ ARTI DEĞER GETİRME";
             this.button3.UseVisualStyleBackColor = true;
@@ -73,7 +74,7 @@
             // 
             this.button4.Location = new System.Drawing.Point(16, 91);
             this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(114, 42);
+            this.button4.Size = new System.Drawing.Size(121, 42);
             this.button4.TabIndex = 3;
             this.button4.Text = "SAYIYI BİR SAYI AZALTMA";
             this.button4.UseVisualStyleBackColor = true;
@@ -81,9 +82,9 @@
             // 
             // button5
             // 
-            this.button5.Location = new System.Drawing.Point(136, 91);
+            this.button5.Location = new System.Drawing.Point(143, 91);
             this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(124, 42);
+            this.button5.Size = new System.Drawing.Size(136, 42);
             this.button5.TabIndex = 4;
             this.button5.Text = "YENİ EKSİ DEĞERİ GETİRİR";
             this.button5.UseVisualStyleBackColor = true;
@@ -94,42 +95,54 @@
             this.textBox1.Location = new System.Drawing.Point(12, 139);
             this.textBox1.Multiline = true;
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(248, 40);
+            this.textBox1.Size = new System.Drawing.Size(267, 40);
             this.textBox1.TabIndex = 5;
             // 
             // button6
             // 
-            this.button6.Location = new System.Drawing.Point(12, 235);
+            this.button6.Location = new System.Drawing.Point(108, 235);
             this.button6.Name = "button6";
             this.button6.Size = new System.Drawing.Size(75, 23);
             this.button6.TabIndex = 9;
-            this.button6.Text = "Örnekler";
+            this.button6.Text = "Ana Menü";
             this.button6.UseVisualStyleBackColor = true;
             this.button6.Click += new System.EventHandler(this.button6_Click);
             // 
             // button7
             // 
-            this.button7.Location = new System.Drawing.Point(93, 223);
+            this.button7.Location = new System.Drawing.Point(189, 235);
             this.button7.Name = "button7";
-            this.button7.Size = new System.Drawing.Size(187, 35);
+            this.button7.Size = new System.Drawing.Size(90, 23);
             this.button7.TabIndex = 10;
-            this.button7.Text = "Değişkeni istenilen kadar azaltma / arttırma";
+            this.button7.Text = "Sonraki Örnek";
             this.button7.UseVisualStyleBackColor = true;
             this.button7.Click += new System.EventHandler(this.button7_Click);
             // 
             // panel1
             // 
             this.panel1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panel1.Location = new System.Drawing.Point(286, 12);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(605, 246);
             this.panel1.TabIndex = 11;
             // 
+            // button8
+            // 
+            this.button8.Location = new System.Drawing.Point(12, 235);
+            this.button8.Name = "button8";
+            this.button8.Size = new System.Drawing.Size(90, 23);
+            this.button8.TabIndex = 12;
+            this.button8.Text = "Önceki Örnek";
+            this.button8.UseVisualStyleBackColor = true;
+            this.button8.Click += new System.EventHandler(this.button8_Click);
+            // 
             // f13_v8_Aritmetik04
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(929, 265);
+            this.ClientSize = new System.Drawing.Size(911, 265);
+            this.Controls.Add(this.button8);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.button7);
             this.Controls.Add(this.button6);
@@ -158,5 +171,6 @@
         private System.Windows.Forms.Button button6;
         private System.Windows.Forms.Button button7;
         private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.Button button8;
     }
 }
