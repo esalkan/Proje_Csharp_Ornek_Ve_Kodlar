@@ -75,5 +75,10 @@ namespace CSharp_Ornek_Ve_Kodlari
             if (comboBox1.SelectedIndex == 3)
                 textBox1.Text = dersler[3];
         }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

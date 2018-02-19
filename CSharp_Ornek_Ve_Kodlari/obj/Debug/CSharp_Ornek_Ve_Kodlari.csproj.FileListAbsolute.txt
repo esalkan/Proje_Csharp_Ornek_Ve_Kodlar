@@ -103,3 +103,5 @@ D:\04 - DEV\Projects\Proje_Csharp_Ornek_Ve_Kodlar\CSharp_Ornek_Ve_Kodlari\obj\De
 D:\04 - DEV\Projects\Proje_Csharp_Ornek_Ve_Kodlar\CSharp_Ornek_Ve_Kodlari\obj\Debug\CSharp_Ornek_Ve_Kodlari.csproj.CoreCompileInputs.cache
 D:\04 - DEV\Projects\Proje_Csharp_Ornek_Ve_Kodlar\CSharp_Ornek_Ve_Kodlari\obj\Debug\CSharp_Ornek_Ve_Kodlari.exe
 D:\04 - DEV\Projects\Proje_Csharp_Ornek_Ve_Kodlar\CSharp_Ornek_Ve_Kodlari\obj\Debug\CSharp_Ornek_Ve_Kodlari.pdb
+D:\04 - DEV\Projects\Proje_Csharp_Ornek_Ve_Kodlar\CSharp_Ornek_Ve_Kodlari\obj\Debug\CSharp_Ornek_Ve_Kodlari.f29_v17_Ornek_Uygulamalar_01.resources
+D:\04 - DEV\Projects\Proje_Csharp_Ornek_Ve_Kodlar\CSharp_Ornek_Ve_Kodlari\obj\Debug\CSharp_Ornek_Ve_Kodlari.f29_v17_Ornek_Uygulamalar_02.resources

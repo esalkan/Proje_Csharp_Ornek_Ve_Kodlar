@@ -474,5 +474,27 @@ namespace CSharp_Ornek_Ve_Kodlari
         {
             richTextBox1.Text = "V15 Diziler konusu işlenmiştir. ";
         }
+
+        private void button28_Click(object sender, EventArgs e)
+        {
+            // Sonraki Örnek 
+            if (OrtakSinif.GizliFormuAc("f29_v17_Ornek_Uygulamalar_01") == 0)
+            {
+                f29_v17_Ornek_Uygulamalar_01 YeniForm = new f29_v17_Ornek_Uygulamalar_01();
+                YeniForm.Show();
+            }
+            this.Visible = false;
+        }
+
+        private void button29_Click(object sender, EventArgs e)
+        {
+            // Sonraki Örnek f29_v17_Ornek_Uygulamalar_02
+            if (OrtakSinif.GizliFormuAc("f29_v17_Ornek_Uygulamalar_02") == 0)
+            {
+                f29_v17_Ornek_Uygulamalar_02 YeniForm = new f29_v17_Ornek_Uygulamalar_02();
+                YeniForm.Show();
+            }
+            this.Visible = false;
+        }
     }
 }

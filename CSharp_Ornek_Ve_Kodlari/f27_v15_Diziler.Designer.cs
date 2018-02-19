@@ -30,9 +30,11 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(f27_v15_Diziler));
             this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.label2 = new System.Windows.Forms.Label();
             this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.label1 = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
             this.listBox1 = new System.Windows.Forms.ListBox();
             this.statusStrip1 = new System.Windows.Forms.StatusStrip();
@@ -48,8 +50,6 @@
             this.tabPage1 = new System.Windows.Forms.TabPage();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.tabControl1 = new System.Windows.Forms.TabControl();
-            this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
             this.groupBox2.SuspendLayout();
             this.groupBox1.SuspendLayout();
             this.statusStrip1.SuspendLayout();
@@ -71,6 +71,15 @@
             this.groupBox2.TabIndex = 3;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Örnek 2";
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(6, 104);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(109, 52);
+            this.label2.TabIndex = 3;
+            this.label2.Text = "ComboBox\'ta daha\r\nönceden tanımlanmış\r\nolan verileri. textBox\'â\r\naktarıyoruz.\r\n";
             // 
             // comboBox1
             // 
@@ -99,6 +108,16 @@
             this.groupBox1.TabIndex = 4;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Örnek 1";
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(6, 146);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(99, 65);
+            this.label1.TabIndex = 2;
+            this.label1.Text = "Çalıştır Butonuna \r\nTıklandıktan sonra\r\nGirilen 5 adet sayıyı\r\nyukarıda ki listBo" +
+    "x\'a\r\nyazdırıyoruz.";
             // 
             // button1
             // 
@@ -175,6 +194,7 @@
             this.button4.TabIndex = 33;
             this.button4.Text = "Sonraki Örnek";
             this.button4.UseVisualStyleBackColor = true;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
             // button3
             // 
@@ -247,25 +267,6 @@
             this.tabControl1.SelectedIndex = 0;
             this.tabControl1.Size = new System.Drawing.Size(969, 147);
             this.tabControl1.TabIndex = 37;
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(6, 146);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(99, 65);
-            this.label1.TabIndex = 2;
-            this.label1.Text = "Çalıştır Butonuna \r\nTıklandıktan sonra\r\nGirilen 5 adet sayıyı\r\nyukarıda ki listBo" +
-    "x\'a\r\nyazdırıyoruz.";
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(6, 104);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(109, 52);
-            this.label2.TabIndex = 3;
-            this.label2.Text = "ComboBox\'ta daha\r\nönceden tanımlanmış\r\nolan verileri. textBox\'â\r\naktarıyoruz.\r\n";
             // 
             // f27_v15_Diziler
             // 
