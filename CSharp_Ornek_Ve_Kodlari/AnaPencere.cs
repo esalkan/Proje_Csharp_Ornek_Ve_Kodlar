@@ -447,10 +447,35 @@ namespace CSharp_Ornek_Ve_Kodlari
             if (OrtakSinif.GizliFormuAc("f26_v14_Kontrol_ve_dongu_komutlari") == 0)
             {
                 f26_v14_Kontrol_ve_dongu_komutlari YeniForm = new f26_v14_Kontrol_ve_dongu_komutlari();
+<<<<<<< HEAD
+=======
                 YeniForm.Show();
             }
             this.Visible = false;
 
+        }
+        private void button26_MouseHover(object sender, EventArgs e)
+        {
+            richTextBox1.Text = "Kontrol ve döngü komuları. (video 14)";
+
+        }
+
+        private void button27_Click(object sender, EventArgs e)
+        {
+            // Sonraki Örnek f27_v15_Diziler
+
+            if (OrtakSinif.GizliFormuAc("f27_v15_Diziler") == 0)
+            {
+                f27_v15_Diziler YeniForm = new f27_v15_Diziler();
+>>>>>>> e42f2320591ea5ada5a914ebef002616eeb60af1
+                YeniForm.Show();
+            }
+            this.Visible = false;
+        }
+
+        private void button27_MouseHover(object sender, EventArgs e)
+        {
+            richTextBox1.Text = "V15 Diziler konusu işlenmiştir. ";
         }
         private void button26_MouseHover(object sender, EventArgs e)
         {
