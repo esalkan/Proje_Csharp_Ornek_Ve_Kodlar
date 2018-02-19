@@ -57,6 +57,7 @@
             this.button24 = new System.Windows.Forms.Button();
             this.button25 = new System.Windows.Forms.Button();
             this.button26 = new System.Windows.Forms.Button();
+            this.button27 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // button1
@@ -372,11 +373,23 @@
             this.button26.Click += new System.EventHandler(this.button26_Click);
             this.button26.MouseHover += new System.EventHandler(this.button26_MouseHover);
             // 
+            // button27
+            // 
+            this.button27.Location = new System.Drawing.Point(12, 194);
+            this.button27.Name = "button27";
+            this.button27.Size = new System.Drawing.Size(75, 23);
+            this.button27.TabIndex = 29;
+            this.button27.Text = "Diziler";
+            this.button27.UseVisualStyleBackColor = true;
+            this.button27.Click += new System.EventHandler(this.button27_Click);
+            this.button27.MouseHover += new System.EventHandler(this.button27_MouseHover);
+            // 
             // AnaPencere
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(902, 366);
+            this.Controls.Add(this.button27);
             this.Controls.Add(this.button26);
             this.Controls.Add(this.button25);
             this.Controls.Add(this.button24);
@@ -444,5 +457,6 @@
         private System.Windows.Forms.Button button24;
         private System.Windows.Forms.Button button25;
         private System.Windows.Forms.Button button26;
+        private System.Windows.Forms.Button button27;
     }
 }

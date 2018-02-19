@@ -222,6 +222,12 @@
     <Compile Include="f26_v14_Kontrol_ve_dongu_komutlari.Designer.cs">
       <DependentUpon>f26_v14_Kontrol_ve_dongu_komutlari.cs</DependentUpon>
     </Compile>
+    <Compile Include="f27_v15_Diziler.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="f27_v15_Diziler.Designer.cs">
+      <DependentUpon>f27_v15_Diziler.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="f07_SabitTanimlamaOrnek7.cs">
@@ -304,6 +310,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="f26_v14_Kontrol_ve_dongu_komutlari.resx">
       <DependentUpon>f26_v14_Kontrol_ve_dongu_komutlari.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="f27_v15_Diziler.resx">
+      <DependentUpon>f27_v15_Diziler.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>PublicResXFileCodeGenerator</Generator>
