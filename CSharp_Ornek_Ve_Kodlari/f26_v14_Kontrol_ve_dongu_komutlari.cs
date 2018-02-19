@@ -183,20 +183,5 @@ namespace CSharp_Ornek_Ve_Kodlari
         {
             OrtakSinif.ListBoxTemizle(listBox3);
         }
-<<<<<<< HEAD
-=======
-
-        private void button2_Click(object sender, EventArgs e)
-        {
-            // Sonraki Örnek f27_v15_Diziler
-
-            if (OrtakSinif.GizliFormuAc("f27_v15_Diziler") == 0)
-            {
-                f27_v15_Diziler YeniForm = new f27_v15_Diziler();
-                YeniForm.Show();
-            }
-            this.Visible = false;
-        }
->>>>>>> e42f2320591ea5ada5a914ebef002616eeb60af1
     }
 }

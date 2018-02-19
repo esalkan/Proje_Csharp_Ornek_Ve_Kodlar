@@ -372,8 +372,7 @@
             this.button26.UseVisualStyleBackColor = true;
             this.button26.Click += new System.EventHandler(this.button26_Click);
             this.button26.MouseHover += new System.EventHandler(this.button26_MouseHover);
-<<<<<<< HEAD
-=======
+
             // 
             // button27
             // 
@@ -385,7 +384,7 @@
             this.button27.UseVisualStyleBackColor = true;
             this.button27.Click += new System.EventHandler(this.button27_Click);
             this.button27.MouseHover += new System.EventHandler(this.button27_MouseHover);
->>>>>>> e42f2320591ea5ada5a914ebef002616eeb60af1
+
             // 
             // AnaPencere
             // 
