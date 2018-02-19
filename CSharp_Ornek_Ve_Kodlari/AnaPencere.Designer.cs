@@ -365,11 +365,12 @@
             // 
             this.button26.Location = new System.Drawing.Point(580, 165);
             this.button26.Name = "button26";
-            this.button26.Size = new System.Drawing.Size(75, 23);
+            this.button26.Size = new System.Drawing.Size(236, 23);
             this.button26.TabIndex = 28;
-            this.button26.Text = "button26";
+            this.button26.Text = "Kontrol Ve Döngü Komutları";
             this.button26.UseVisualStyleBackColor = true;
             this.button26.Click += new System.EventHandler(this.button26_Click);
+            this.button26.MouseHover += new System.EventHandler(this.button26_MouseHover);
             // 
             // AnaPencere
             // 
