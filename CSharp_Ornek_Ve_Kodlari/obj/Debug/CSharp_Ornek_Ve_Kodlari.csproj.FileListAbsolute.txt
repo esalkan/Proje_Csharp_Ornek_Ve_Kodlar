@@ -108,3 +108,7 @@ D:\04 - DEV\Projects\Proje_Csharp_Ornek_Ve_Kodlar\CSharp_Ornek_Ve_Kodlari\obj\De
 C:\Users\umut\Documents\GitHub\Proje_CSOVK\CSharp_Ornek_Ve_Kodlari\obj\Debug\CSharp_Ornek_Ve_Kodlari.f27_v15_Diziler.resources
 C:\Users\umut\Documents\GitHub\Proje_CSOVK\CSharp_Ornek_Ve_Kodlari\obj\Debug\CSharp_Ornek_Ve_Kodlari.f29_v17_Ornek_Uygulamalar_01.resources
 C:\Users\umut\Documents\GitHub\Proje_CSOVK\CSharp_Ornek_Ve_Kodlari\obj\Debug\CSharp_Ornek_Ve_Kodlari.f29_v17_Ornek_Uygulamalar_02.resources
+D:\04 - DEV\Projects\Proje_Csharp_Ornek_Ve_Kodlar\CSharp_Ornek_Ve_Kodlari\obj\Debug\CSharp_Ornek_Ve_Kodlari.f29_v17_Ornek_Uygulamalar_02_01.resources
+D:\04 - DEV\Projects\Proje_Csharp_Ornek_Ve_Kodlar\CSharp_Ornek_Ve_Kodlari\obj\Debug\CSharp_Ornek_Ve_Kodlari.f29_v17_Ornek_Uygulamalar_02_02.resources
+D:\04 - DEV\Projects\Proje_Csharp_Ornek_Ve_Kodlar\CSharp_Ornek_Ve_Kodlari\obj\Debug\CSharp_Ornek_Ve_Kodlari.f31_v19_Uygulama_Ornekleri_04_01.resources
+D:\04 - DEV\Projects\Proje_Csharp_Ornek_Ve_Kodlar\CSharp_Ornek_Ve_Kodlari\obj\Debug\CSharp_Ornek_Ve_Kodlari.f31_v19_Uygulama_Ornekleri_04_02.resources
