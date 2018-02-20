@@ -207,5 +207,18 @@ namespace CSharp_Ornek_Ve_Kodlari
                 count = count + 1;
             }
         }
+
+        private void button13_Click(object sender, EventArgs e)
+        {
+            int count = 1;
+
+            do
+            {
+                MessageBox.Show("while döngüsüyle sayı değeri şimdi: " + count + " oldu");
+                label4.Text = Convert.ToString("Sayı değeri= " + count);
+                count = count + 1;
+            }
+            while (count <= 4);
+        }
     }
 }
