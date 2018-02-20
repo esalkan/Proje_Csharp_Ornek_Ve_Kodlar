@@ -236,6 +236,7 @@
             this.pictureBox1.Size = new System.Drawing.Size(941, 554);
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
+            this.pictureBox1.MouseHover += new System.EventHandler(this.pictureBox1_MouseHover);
             // 
             // tabPage1
             // 
@@ -257,6 +258,7 @@
             this.pictureBox2.Size = new System.Drawing.Size(946, 210);
             this.pictureBox2.TabIndex = 0;
             this.pictureBox2.TabStop = false;
+            this.pictureBox2.MouseHover += new System.EventHandler(this.pictureBox2_MouseHover);
             // 
             // tabControl1
             // 

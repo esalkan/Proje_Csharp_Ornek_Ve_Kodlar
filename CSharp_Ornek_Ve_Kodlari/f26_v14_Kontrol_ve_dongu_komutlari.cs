@@ -183,5 +183,29 @@ namespace CSharp_Ornek_Ve_Kodlari
         {
             OrtakSinif.ListBoxTemizle(listBox3);
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            // Sonraki Örnek f27_v15_Diziler
+
+            if (OrtakSinif.GizliFormuAc("f27_v15_Diziler") == 0)
+            {
+                f27_v15_Diziler YeniForm = new f27_v15_Diziler();
+                YeniForm.Show();
+            }
+            this.Visible = false;
+        }
+
+        private void button12_Click_1(object sender, EventArgs e)
+        {
+            int count = 1;
+
+            while (count <= 4)
+            {
+                MessageBox.Show("while döngüsüyle sayı değeri şimdi: " + count + " oldu");
+                label3.Text = Convert.ToString("Sayı değeri= " + count);
+                count = count + 1;
+            }
+        }
     }
 }

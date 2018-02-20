@@ -80,5 +80,15 @@ namespace CSharp_Ornek_Ve_Kodlari
         {
 
         }
+
+        private void pictureBox1_MouseHover(object sender, EventArgs e)
+        {
+            tabPage2.Focus();
+        }
+
+        private void pictureBox2_MouseHover(object sender, EventArgs e)
+        {
+            tabPage1.Focus();
+        }
     }
 }
