@@ -94,7 +94,6 @@ D:\04 - DEV\Projects\Proje_Csharp_Ornek_Ve_Kodlar\CSharp_Ornek_Ve_Kodlari\obj\De
 D:\04 - DEV\Projects\Proje_Csharp_Ornek_Ve_Kodlar\CSharp_Ornek_Ve_Kodlari\obj\Debug\CSharp_Ornek_Ve_Kodlari.AnaPencere.resources
 D:\04 - DEV\Projects\Proje_Csharp_Ornek_Ve_Kodlar\CSharp_Ornek_Ve_Kodlari\obj\Debug\CSharp_Ornek_Ve_Kodlari.f26_v14_Kontrol_ve_dongu_komutlari.resources
 D:\04 - DEV\Projects\Proje_Csharp_Ornek_Ve_Kodlar\CSharp_Ornek_Ve_Kodlari\obj\Debug\CSharp_Ornek_Ve_Kodlari.f27_v15_Diziler.resources
-D:\04 - DEV\Projects\Proje_Csharp_Ornek_Ve_Kodlar\CSharp_Ornek_Ve_Kodlari\obj\Debug\CSharp_Ornek_Ve_Kodlari.f29_v17_Ornek_Uygulamalar_01.resources
 D:\04 - DEV\Projects\Proje_Csharp_Ornek_Ve_Kodlar\CSharp_Ornek_Ve_Kodlari\obj\Debug\CSharp_Ornek_Ve_Kodlari.Properties.Resources.resources
 D:\04 - DEV\Projects\Proje_Csharp_Ornek_Ve_Kodlar\CSharp_Ornek_Ve_Kodlari\obj\Debug\CSharp_Ornek_Ve_Kodlari.f07_SabitTanimlamaOrnek7.resources
 D:\04 - DEV\Projects\Proje_Csharp_Ornek_Ve_Kodlar\CSharp_Ornek_Ve_Kodlari\obj\Debug\CSharp_Ornek_Ve_Kodlari.csproj.GenerateResource.Cache
@@ -104,7 +103,6 @@ D:\04 - DEV\Projects\Proje_Csharp_Ornek_Ve_Kodlar\CSharp_Ornek_Ve_Kodlari\obj\De
 D:\04 - DEV\Projects\Proje_Csharp_Ornek_Ve_Kodlar\CSharp_Ornek_Ve_Kodlari\bin\Debug\CSharp_Ornek_Ve_Kodlari.exe.config
 D:\04 - DEV\Projects\Proje_Csharp_Ornek_Ve_Kodlar\CSharp_Ornek_Ve_Kodlari\bin\Debug\CSharp_Ornek_Ve_Kodlari.exe
 D:\04 - DEV\Projects\Proje_Csharp_Ornek_Ve_Kodlar\CSharp_Ornek_Ve_Kodlari\bin\Debug\CSharp_Ornek_Ve_Kodlari.pdb
-D:\04 - DEV\Projects\Proje_Csharp_Ornek_Ve_Kodlar\CSharp_Ornek_Ve_Kodlari\obj\Debug\CSharp_Ornek_Ve_Kodlari.f29_v17_Ornek_Uygulamalar_02.resources
 C:\Users\umut\Documents\GitHub\Proje_CSOVK\CSharp_Ornek_Ve_Kodlari\obj\Debug\CSharp_Ornek_Ve_Kodlari.f27_v15_Diziler.resources
 C:\Users\umut\Documents\GitHub\Proje_CSOVK\CSharp_Ornek_Ve_Kodlari\obj\Debug\CSharp_Ornek_Ve_Kodlari.f29_v17_Ornek_Uygulamalar_01.resources
 C:\Users\umut\Documents\GitHub\Proje_CSOVK\CSharp_Ornek_Ve_Kodlari\obj\Debug\CSharp_Ornek_Ve_Kodlari.f29_v17_Ornek_Uygulamalar_02.resources

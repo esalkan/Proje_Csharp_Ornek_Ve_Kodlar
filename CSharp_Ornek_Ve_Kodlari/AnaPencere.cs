@@ -477,24 +477,65 @@ namespace CSharp_Ornek_Ve_Kodlari
 
         private void button28_Click(object sender, EventArgs e)
         {
-            // Sonraki Örnek 
-            if (OrtakSinif.GizliFormuAc("f29_v17_Ornek_Uygulamalar_01") == 0)
+            // Sonraki Örnek f29_v17_Ornek_Uygulamalar_02_01
+            if (OrtakSinif.GizliFormuAc("f29_v17_Ornek_Uygulamalar_02_01") == 0)
             {
-                f29_v17_Ornek_Uygulamalar_01 YeniForm = new f29_v17_Ornek_Uygulamalar_01();
+                f29_v17_Ornek_Uygulamalar_02_01 YeniForm = new f29_v17_Ornek_Uygulamalar_02_01();
                 YeniForm.Show();
             }
             this.Visible = false;
         }
 
+        private void button28_MouseHover(object sender, EventArgs e)
+        {
+            richTextBox1.Text = "Açıklama Yazılacak...";
+        }
+
         private void button29_Click(object sender, EventArgs e)
         {
-            // Sonraki Örnek 
-            if (OrtakSinif.GizliFormuAc("f29_v17_Ornek_Uygulamalar_02") == 0)
+            // Sonraki Örnek f29_v17_Ornek_Uygulamalar_02_02
+            if (OrtakSinif.GizliFormuAc("f29_v17_Ornek_Uygulamalar_02_02") == 0)
             {
-                f29_v17_Ornek_Uygulamalar_02 YeniForm = new f29_v17_Ornek_Uygulamalar_02();
+                f29_v17_Ornek_Uygulamalar_02_02 YeniForm = new f29_v17_Ornek_Uygulamalar_02_02();
                 YeniForm.Show();
             }
             this.Visible = false;
+        }
+
+        private void button29_MouseHover(object sender, EventArgs e)
+        {
+            richTextBox1.Text = "Açıklama Yazılacak...";
+        }
+
+        private void button30_Click(object sender, EventArgs e)
+        {
+            // Sonraki Örnek f31_v19_Uygulama_Ornekleri_04_01
+            if (OrtakSinif.GizliFormuAc("f31_v19_Uygulama_Ornekleri_04_01") == 0)
+            {
+                f31_v19_Uygulama_Ornekleri_04_01 YeniForm = new f31_v19_Uygulama_Ornekleri_04_01();
+                YeniForm.Show();
+            }
+            this.Visible = false;
+        }
+        private void button30_MouseHover(object sender, EventArgs e)
+        {
+            richTextBox1.Text = "Açıklama Yazılacak...";
+        }
+
+        private void button31_Click(object sender, EventArgs e)
+        {
+            // Sonraki Örnek f31_v19_Uygulama_Ornekleri_04_02
+            if (OrtakSinif.GizliFormuAc("f31_v19_Uygulama_Ornekleri_04_02") == 0)
+            {
+                f31_v19_Uygulama_Ornekleri_04_02 YeniForm = new f31_v19_Uygulama_Ornekleri_04_02();
+                YeniForm.Show();
+            }
+            this.Visible = false;
+        }
+
+        private void button31_MouseHover(object sender, EventArgs e)
+        {
+            richTextBox1.Text = "Açıklama Yazılacak...";
         }
     }
 }

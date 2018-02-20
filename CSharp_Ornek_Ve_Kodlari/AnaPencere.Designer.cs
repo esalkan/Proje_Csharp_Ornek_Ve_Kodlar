@@ -64,6 +64,8 @@
             this.toolStripStatusLabel1 = new System.Windows.Forms.ToolStripStatusLabel();
             this.toolStripStatusLabel2 = new System.Windows.Forms.ToolStripStatusLabel();
             this.button29 = new System.Windows.Forms.Button();
+            this.button30 = new System.Windows.Forms.Button();
+            this.button31 = new System.Windows.Forms.Button();
             this.statusStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -395,11 +397,12 @@
             // 
             this.button28.Location = new System.Drawing.Point(93, 194);
             this.button28.Name = "button28";
-            this.button28.Size = new System.Drawing.Size(121, 23);
+            this.button28.Size = new System.Drawing.Size(123, 23);
             this.button28.TabIndex = 30;
-            this.button28.Text = "Örnek Uygulamalar 01";
+            this.button28.Text = "Örnek Uygulamalar 2.1";
             this.button28.UseVisualStyleBackColor = true;
             this.button28.Click += new System.EventHandler(this.button28_Click);
+            this.button28.MouseHover += new System.EventHandler(this.button28_MouseHover);
             // 
             // statusStrip1
             // 
@@ -441,19 +444,44 @@
             // 
             // button29
             // 
-            this.button29.Location = new System.Drawing.Point(220, 194);
+            this.button29.Location = new System.Drawing.Point(222, 194);
             this.button29.Name = "button29";
-            this.button29.Size = new System.Drawing.Size(121, 23);
+            this.button29.Size = new System.Drawing.Size(123, 23);
             this.button29.TabIndex = 33;
-            this.button29.Text = "Örnek Uygulamalar 02";
+            this.button29.Text = "Örnek Uygulamalar 2.2";
             this.button29.UseVisualStyleBackColor = true;
             this.button29.Click += new System.EventHandler(this.button29_Click);
+            this.button29.MouseHover += new System.EventHandler(this.button29_MouseHover);
+            // 
+            // button30
+            // 
+            this.button30.Location = new System.Drawing.Point(351, 194);
+            this.button30.Name = "button30";
+            this.button30.Size = new System.Drawing.Size(132, 23);
+            this.button30.TabIndex = 34;
+            this.button30.Text = "Örnek Uygulamalar 4.1";
+            this.button30.UseVisualStyleBackColor = true;
+            this.button30.Click += new System.EventHandler(this.button30_Click);
+            this.button30.MouseHover += new System.EventHandler(this.button30_MouseHover);
+            // 
+            // button31
+            // 
+            this.button31.Location = new System.Drawing.Point(489, 194);
+            this.button31.Name = "button31";
+            this.button31.Size = new System.Drawing.Size(132, 23);
+            this.button31.TabIndex = 35;
+            this.button31.Text = "Örnek Uygulamalar 4.2";
+            this.button31.UseVisualStyleBackColor = true;
+            this.button31.Click += new System.EventHandler(this.button31_Click);
+            this.button31.MouseHover += new System.EventHandler(this.button31_MouseHover);
             // 
             // AnaPencere
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(902, 386);
+            this.Controls.Add(this.button31);
+            this.Controls.Add(this.button30);
             this.Controls.Add(this.button29);
             this.Controls.Add(this.statusStrip1);
             this.Controls.Add(this.button28);
@@ -534,5 +562,7 @@
         private System.Windows.Forms.ToolStripStatusLabel toolStripStatusLabel1;
         private System.Windows.Forms.ToolStripStatusLabel toolStripStatusLabel2;
         private System.Windows.Forms.Button button29;
+        private System.Windows.Forms.Button button30;
+        private System.Windows.Forms.Button button31;
     }
 }
