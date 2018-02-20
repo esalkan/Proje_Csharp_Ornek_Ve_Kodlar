@@ -63,6 +63,7 @@
             this.toolStripStatusLabel3 = new System.Windows.Forms.ToolStripStatusLabel();
             this.toolStripStatusLabel1 = new System.Windows.Forms.ToolStripStatusLabel();
             this.toolStripStatusLabel2 = new System.Windows.Forms.ToolStripStatusLabel();
+            this.button29 = new System.Windows.Forms.Button();
             this.statusStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -378,7 +379,6 @@
             this.button26.UseVisualStyleBackColor = true;
             this.button26.Click += new System.EventHandler(this.button26_Click);
             this.button26.MouseHover += new System.EventHandler(this.button26_MouseHover);
-
             // 
             // button27
             // 
@@ -390,7 +390,6 @@
             this.button27.UseVisualStyleBackColor = true;
             this.button27.Click += new System.EventHandler(this.button27_Click);
             this.button27.MouseHover += new System.EventHandler(this.button27_MouseHover);
-
             // 
             // button28
             // 
@@ -440,11 +439,22 @@
             this.toolStripStatusLabel2.Size = new System.Drawing.Size(189, 13);
             this.toolStripStatusLabel2.Text = "Umut SÜRMELİ  / Eyüp Sabri ALKAN ";
             // 
+            // button29
+            // 
+            this.button29.Location = new System.Drawing.Point(220, 194);
+            this.button29.Name = "button29";
+            this.button29.Size = new System.Drawing.Size(121, 23);
+            this.button29.TabIndex = 33;
+            this.button29.Text = "Örnek Uygulamalar 02";
+            this.button29.UseVisualStyleBackColor = true;
+            this.button29.Click += new System.EventHandler(this.button29_Click);
+            // 
             // AnaPencere
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(902, 386);
+            this.Controls.Add(this.button29);
             this.Controls.Add(this.statusStrip1);
             this.Controls.Add(this.button28);
             this.Controls.Add(this.button27);
@@ -523,5 +533,6 @@
         private System.Windows.Forms.ToolStripStatusLabel toolStripStatusLabel3;
         private System.Windows.Forms.ToolStripStatusLabel toolStripStatusLabel1;
         private System.Windows.Forms.ToolStripStatusLabel toolStripStatusLabel2;
+        private System.Windows.Forms.Button button29;
     }
 }

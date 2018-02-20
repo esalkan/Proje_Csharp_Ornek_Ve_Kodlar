@@ -99,5 +99,22 @@ namespace CSharp_Ornek_Ve_Kodlari
             OrtakSinif.GizliFormuAc("AnaPencere"); //Application.OpenForms[0].Visible = true;//ilk açılan form
             this.Visible = false;
         }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            // Sonraki Örnek f29_v17_Ornek_Uygulamalar_02
+
+            if (OrtakSinif.GizliFormuAc("f29_v17_Ornek_Uygulamalar_02") == 0)
+            {
+                f29_v17_Ornek_Uygulamalar_02 YeniForm = new f29_v17_Ornek_Uygulamalar_02();
+                YeniForm.Show();
+            }
+            this.Visible = false;
+        }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

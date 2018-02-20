@@ -157,6 +157,7 @@
             this.button6.Tag = "Önceki Örnek";
             this.button6.Text = "Önceki Örnek";
             this.button6.UseVisualStyleBackColor = true;
+            this.button6.Click += new System.EventHandler(this.button6_Click);
             // 
             // button4
             // 
@@ -166,6 +167,7 @@
             this.button4.TabIndex = 36;
             this.button4.Text = "Sonraki Örnek";
             this.button4.UseVisualStyleBackColor = true;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
             // button3
             // 
